@@ -18,6 +18,11 @@ if (split)
 }
 else
 {
+	throw_x = mouse_x - x;
+	throw_y = mouse_y - y;
+	var length = sqrt(throw_x * throw_x + throw_y * throw_y);
+	throw_x /= length;
+	throw_y /= length;
 	split = true;
 	jumpMax = 1;
 	throwTimer = 15; 

@@ -23,6 +23,8 @@ controlsSetup();
 // Combat
 split = false;
 throwTimer = 0;
+throw_x = 0;
+throw_y = 0;
 souls = 0;
 iFrames = 0;
 
