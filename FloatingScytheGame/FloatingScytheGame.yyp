@@ -79,6 +79,7 @@
     {"id":{"name":"sSouls","path":"sprites/sSouls/sSouls.yy",},},
     {"id":{"name":"sSoulsCollected","path":"sprites/sSoulsCollected/sSoulsCollected.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
+    {"id":{"name":"TESTING","path":"sprites/TESTING/TESTING.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
