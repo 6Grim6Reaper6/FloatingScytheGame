@@ -1,0 +1,1 @@
+jumpHoldTimer = 0;
