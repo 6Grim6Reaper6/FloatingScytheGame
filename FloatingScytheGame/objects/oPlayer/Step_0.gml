@@ -93,6 +93,7 @@ xspd = 0;
 // Check if on ground
 onGround = (place_meeting(x, y + 2, oWall));
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
 
@@ -344,6 +345,8 @@ x += xspd;
 y += yspd;
 xspd = 0;
 if (onGround) { yspd = 0; }*/
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 
