@@ -36,9 +36,14 @@ if (iFrames > 0)// Tick down iFrames
 // Handle throwing
 if (throwTimer > 0)
 { 
+	isAttacking = true;
 	xspd = throw_x * throwTimer;
 	yspd = throw_y * throwTimer;
 	throwTimer--;	
+}
+else
+{
+	isAttacking = false;
 }
 
 if (wallBoost > 0)

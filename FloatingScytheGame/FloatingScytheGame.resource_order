@@ -46,6 +46,7 @@
     {"name":"sPlayerWalkScythe","order":5,"path":"sprites/sPlayerWalkScythe/sPlayerWalkScythe.yy",},
     {"name":"sPlayeSlide","order":5,"path":"sprites/sPlayeSlide/sPlayeSlide.yy",},
     {"name":"sPlayeSlideScythe","order":6,"path":"sprites/sPlayeSlideScythe/sPlayeSlideScythe.yy",},
+    {"name":"sSlimeDeath","order":2,"path":"sprites/sSlimeDeath/sSlimeDeath.yy",},
     {"name":"sSlimeJump","order":1,"path":"sprites/sSlimeJump/sSlimeJump.yy",},
     {"name":"sSlope1","order":1,"path":"sprites/sSlope1/sSlope1.yy",},
     {"name":"sSlope2","order":2,"path":"sprites/sSlope2/sSlope2.yy",},

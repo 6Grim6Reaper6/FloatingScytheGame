@@ -1,5 +1,6 @@
 function getHit(HitterX, HitterY)
 {
+	if (iFrames > 0) { return; }
 	var vector = getVector(HitterX, HitterY);
 	throw_x = -1 * vector[0];
 	throw_y = -1 * vector[1];
@@ -33,6 +34,7 @@ controlsSetup();
 // Combat
 split = false;
 throwTimer = 0;
+isAttacking = false;
 throw_x = 0;
 throw_y = 0;
 souls = 0;
