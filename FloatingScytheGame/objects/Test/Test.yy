@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sSpikes",
+    "path":"sprites/sSpikes/sSpikes.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

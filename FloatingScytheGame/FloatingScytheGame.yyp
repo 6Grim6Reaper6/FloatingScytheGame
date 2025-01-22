@@ -78,7 +78,13 @@
     {"id":{"name":"sSlope3","path":"sprites/sSlope3/sSlope3.yy",},},
     {"id":{"name":"sSouls","path":"sprites/sSouls/sSouls.yy",},},
     {"id":{"name":"sSoulsCollected","path":"sprites/sSoulsCollected/sSoulsCollected.yy",},},
+    {"id":{"name":"sSpikes","path":"sprites/sSpikes/sSpikes.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
+<<<<<<< Updated upstream
+=======
+    {"id":{"name":"sWallstone","path":"sprites/sWallstone/sWallstone.yy",},},
+    {"id":{"name":"TESTING","path":"sprites/TESTING/TESTING.yy",},},
+>>>>>>> Stashed changes
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

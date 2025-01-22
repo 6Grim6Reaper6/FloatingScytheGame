@@ -18,9 +18,18 @@ if (split)
 }
 else
 {
+<<<<<<< Updated upstream
+=======
+	throw_x = mouse_x - x;
+	throw_y = mouse_y - y;
+	onGround = false;
+	var length = sqrt(throw_x * throw_x + throw_y * throw_y);
+	throw_x /= length;
+	throw_y /= length;
+>>>>>>> Stashed changes
 	split = true;
 	jumpMax = 1;
-	throwTimer = 15; 
+	throwTimer = 20; 
 	
 	//Change sprites
 	maskSpr = sPlayerIdleScythe;

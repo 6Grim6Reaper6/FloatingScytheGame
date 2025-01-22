@@ -50,6 +50,12 @@
     {"name":"sSlope2","order":2,"path":"sprites/sSlope2/sSlope2.yy",},
     {"name":"sSlope3","order":3,"path":"sprites/sSlope3/sSlope3.yy",},
     {"name":"sSoulsCollected","order":1,"path":"sprites/sSoulsCollected/sSoulsCollected.yy",},
+    {"name":"sSpikes","order":9,"path":"sprites/sSpikes/sSpikes.yy",},
     {"name":"sWall","order":6,"path":"sprites/sWall/sWall.yy",},
+<<<<<<< Updated upstream
+=======
+    {"name":"sWallstone","order":10,"path":"sprites/sWallstone/sWallstone.yy",},
+    {"name":"TESTING","order":27,"path":"sprites/TESTING/TESTING.yy",},
+>>>>>>> Stashed changes
   ],
 }

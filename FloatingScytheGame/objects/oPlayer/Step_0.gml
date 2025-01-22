@@ -87,11 +87,11 @@ if (onWall != 0 and wallBoost <= 0)
 }
 
 
-move_and_collide(xspd, yspd, oWall, 8, 0, maxStepAssist, 999999, termVel);
+move_and_collide(xspd, yspd, oWall, 8, 0, maxStepAssist, 999999, 999999);
 xspd = 0;
 
 // Check if on ground
-onGround = (place_meeting(x, y + 1, oWall));
+onGround = (place_meeting(x, y + 2, oWall));
 
 
 

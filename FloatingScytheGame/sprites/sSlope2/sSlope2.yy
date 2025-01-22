@@ -19,7 +19,8 @@
   "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b979927e-9959-4c1a-83b6-a3c7f82a68c3","blendMode":0,"displayName":"default","isLocked":false,"name":"b979927e-9959-4c1a-83b6-a3c7f82a68c3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"b979927e-9959-4c1a-83b6-a3c7f82a68c3","blendMode":0,"displayName":"default","isLocked":false,"name":"b979927e-9959-4c1a-83b6-a3c7f82a68c3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
+    {"$GMImageLayer":"","%Name":"2097471c-91a5-460f-9be4-31d754dd8ef5","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"2097471c-91a5-460f-9be4-31d754dd8ef5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sSlope2",
   "nineSlice":{

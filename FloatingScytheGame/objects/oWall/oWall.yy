@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"sWall",
-    "path":"sprites/sWall/sWall.yy",
+    "name":"sWallstone",
+    "path":"sprites/sWallstone/sWallstone.yy",
   },
   "spriteMaskId":null,
   "visible":true,
