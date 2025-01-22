@@ -1,7 +1,7 @@
 // Throw scythe
 if (split)
 {
-	if (place_meeting(x, y, oBonepile) and throwTimer == 0)
+	if (place_meeting(x, y, oBonepile))
 	{
 		split = false;
 		jumpMax = 2;
@@ -20,12 +20,13 @@ else
 {
 	throw_x = mouse_x - x;
 	throw_y = mouse_y - y;
+	onGround = false;
 	var length = sqrt(throw_x * throw_x + throw_y * throw_y);
 	throw_x /= length;
 	throw_y /= length;
 	split = true;
 	jumpMax = 1;
-	throwTimer = 15; 
+	throwTimer = 20; 
 	
 	//Change sprites
 	maskSpr = sPlayerIdleScythe;
