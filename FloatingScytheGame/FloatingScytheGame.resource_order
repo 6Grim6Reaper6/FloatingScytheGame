@@ -26,6 +26,7 @@
   "ResourceOrderSettings":[
     {"name":"oBonepile","order":8,"path":"objects/oBonepile/oBonepile.yy",},
     {"name":"oCamera","order":2,"path":"objects/oCamera/oCamera.yy",},
+    {"name":"oSlime","order":10,"path":"objects/oSlime/oSlime.yy",},
     {"name":"oSlope1","order":1,"path":"objects/oSlope1/oSlope1.yy",},
     {"name":"oSlope2","order":2,"path":"objects/oSlope2/oSlope2.yy",},
     {"name":"oSlope3","order":3,"path":"objects/oSlope3/oSlope3.yy",},

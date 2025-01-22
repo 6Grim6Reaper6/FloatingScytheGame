@@ -46,6 +46,7 @@
     {"id":{"name":"oBonepile","path":"objects/oBonepile/oBonepile.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"oSlime","path":"objects/oSlime/oSlime.yy",},},
     {"id":{"name":"oSlope","path":"objects/oSlope/oSlope.yy",},},
     {"id":{"name":"oSlope1","path":"objects/oSlope1/oSlope1.yy",},},
     {"id":{"name":"oSlope2","path":"objects/oSlope2/oSlope2.yy",},},
