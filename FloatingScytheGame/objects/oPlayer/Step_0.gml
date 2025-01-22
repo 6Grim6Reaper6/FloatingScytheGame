@@ -25,7 +25,13 @@ mask_index = maskSpr;
 
 //Get Inputs
 getControls();
-if (iFrames > 0) { iFrames--; } // Tick down iFrames
+if (iFrames > 0)// Tick down iFrames
+{ 
+	xspd = throw_x * 5;
+	yspd = throw_y * 5;
+	iFrames--;
+
+} 
 
 // Handle throwing
 if (throwTimer > 0)
@@ -47,6 +53,7 @@ if (place_meeting(x, y - 8, oWall))
 	onWall = 0;
 	jumpHoldTimer = 0;
 }
+
 if (onWall != 0 and wallBoost <= 0)
 {
 	yspd *= 0.5;

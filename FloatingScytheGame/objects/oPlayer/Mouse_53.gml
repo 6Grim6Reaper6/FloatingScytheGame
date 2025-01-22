@@ -1,4 +1,4 @@
 if (iFrames == 0)
 {
-	getHit();
+	getHit(x, y + 10);
 }

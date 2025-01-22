@@ -1,5 +1,8 @@
-function getHit()
+function getHit(HitterX, HitterY)
 {
+	var vector = getVector(HitterX, HitterY);
+	throw_x = -1 * vector[0];
+	throw_y = -1 * vector[1];
 	if (souls == 0)
 	{
 		// implement game over
@@ -11,10 +14,17 @@ function getHit()
 			instance_create_depth(x, y, depth, oSouls);
 			souls--;
 		}
-		iFrames = 25;
+		iFrames = 15;
 	}
 }
 
+function getVector(targetX, targetY)
+{
+	targetX -= x;
+	targetY -= y;
+	var length = sqrt(targetX * targetX + targetY * targetY);
+	return [targetX / length, targetY / length];
+}
 
 //control setup
 controlsSetup();

@@ -1,1 +1,1 @@
-other.getHit();
+other.getHit(x, y);

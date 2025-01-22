@@ -18,12 +18,10 @@ if (split)
 }
 else
 {
-	throw_x = mouse_x - x;
-	throw_y = mouse_y - y;
 	onGround = false;
-	var length = sqrt(throw_x * throw_x + throw_y * throw_y);
-	throw_x /= length;
-	throw_y /= length;
+	var vector = getVector(mouse_x, mouse_y);
+	throw_x = vector[0];
+	throw_y = vector[1];
 	split = true;
 	jumpMax = 1;
 	throwTimer = 20; 

@@ -31,7 +31,7 @@ else
 }
 move_and_collide(xspd * xDir, yspd, oWall, 4, 0, 4);
 xspd = 0;
-onGround = (place_meeting(x, y + 2, oWall));
+onGround = (place_meeting(x, y + 4, oWall));
 
 
 
