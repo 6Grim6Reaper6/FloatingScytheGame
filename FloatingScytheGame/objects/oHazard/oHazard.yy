@@ -9,8 +9,8 @@
   "name":"oHazard",
   "overriddenProperties":[],
   "parent":{
-    "name":"Hazards",
-    "path":"folders/Objects/Hazards.yy",
+    "name":"Tiles",
+    "path":"folders/Objects/Hazards/Tiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,

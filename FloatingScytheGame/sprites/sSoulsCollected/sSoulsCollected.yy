@@ -30,7 +30,7 @@
   "origin":7,
   "parent":{
     "name":"Collectibles",
-    "path":"folders/Sprites/Objects/Collectibles.yy",
+    "path":"folders/Sprites/Collectibles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
