@@ -1,3 +1,4 @@
+
 //Sprite Control
 //Walking
 face = xDir;
@@ -25,6 +26,7 @@ mask_index = maskSpr;
 
 //Get Inputs
 getControls();
+
 if (iFrames > 0)// Tick down iFrames
 { 
 	xspd = throw_x * 5;

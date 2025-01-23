@@ -33,6 +33,7 @@
   "ResourceOrderSettings":[
     {"name":"ft_menu","order":1,"path":"fonts/ft_menu/ft_menu.yy",},
     {"name":"oCamera","order":2,"path":"objects/oCamera/oCamera.yy",},
+    {"name":"oParEnemy","order":1,"path":"objects/oParEnemy/oParEnemy.yy",},
     {"name":"oSave","order":17,"path":"objects/oSave/oSave.yy",},
     {"name":"oSlope1","order":1,"path":"objects/oSlope1/oSlope1.yy",},
     {"name":"oSlope2","order":2,"path":"objects/oSlope2/oSlope2.yy",},

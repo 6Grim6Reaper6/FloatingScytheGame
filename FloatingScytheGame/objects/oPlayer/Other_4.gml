@@ -26,7 +26,7 @@ else
 	throw_y = vector[1];
 	split = true;
 	jumpMax = 1;
-	throwTimer = 1; 
+	throwTimer = 0; 
 	
 	//Change sprites
 	maskSpr = sPlayerIdleScythe;
