@@ -12,7 +12,7 @@ if (pause)
 	surface_reset_target();
 }
 
-if ((keyboard_check_pressed(vk_escape); or global.paused) and not asset_has_tags(room, "Menu", asset_room);)
+if ((keyboard_check_pressed(vk_escape) or global.paused) and not asset_has_tags(room, "Menu", asset_room))
 {
 	global.paused = false;
 	if (not pause) 
