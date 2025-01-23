@@ -65,7 +65,7 @@
     {"id":{"name":"oText","path":"objects/oText/oText.yy",},},
     {"id":{"name":"oTextbox","path":"objects/oTextbox/oTextbox.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
-    {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
+    {"id":{"name":"Level1Part1","path":"rooms/Level1Part1/Level1Part1.yy",},},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"id":{"name":"rminit","path":"rooms/rminit/rminit.yy",},},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
@@ -101,7 +101,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rminit","path":"rooms/rminit/rminit.yy",},},
-    {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
+    {"roomId":{"name":"Level1Part1","path":"rooms/Level1Part1/Level1Part1.yy",},},
     {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
   ],
