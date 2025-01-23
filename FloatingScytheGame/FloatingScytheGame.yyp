@@ -113,8 +113,13 @@
     {"roomId":{"name":"rminit","path":"rooms/rminit/rminit.yy",},},
     {"roomId":{"name":"Level1Part1","path":"rooms/Level1Part1/Level1Part1.yy",},},
     {"roomId":{"name":"Level1Part2","path":"rooms/Level1Part2/Level1Part2.yy",},},
+<<<<<<< Updated upstream
     {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
+=======
+    {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
+    {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
+>>>>>>> Stashed changes
   ],
   "templateType":"game",
   "TextureGroups":[
