@@ -7,7 +7,7 @@
   "managed":true,
   "name":"oText",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oTextbox","path":"objects/oTextbox/oTextbox.yy",},"propertyId":{"name":"text","path":"objects/oTextbox/oTextbox.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"I'm Mr Mee6 look a a a at  me!",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oTextbox","path":"objects/oTextbox/oTextbox.yy",},"propertyId":{"name":"text","path":"objects/oTextbox/oTextbox.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".....?",},
   ],
   "parent":{
     "name":"FloatingText",
@@ -30,7 +30,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"Localtext","filters":[],"listItems":[],"multiselect":false,"name":"Localtext","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"InsertTextHere","varType":2,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

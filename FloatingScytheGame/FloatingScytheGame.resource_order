@@ -38,6 +38,7 @@
     {"name":"oSlope3","order":3,"path":"objects/oSlope3/oSlope3.yy",},
     {"name":"oSpikes","order":2,"path":"objects/oSpikes/oSpikes.yy",},
     {"name":"oWall","order":4,"path":"objects/oWall/oWall.yy",},
+    {"name":"Level1","order":3,"path":"rooms/Level1/Level1.yy",},
     {"name":"MainMenu","order":2,"path":"rooms/MainMenu/MainMenu.yy",},
     {"name":"rminit","order":1,"path":"rooms/rminit/rminit.yy",},
     {"name":"sPlayerIdle","order":1,"path":"sprites/sPlayerIdle/sPlayerIdle.yy",},
