@@ -37,9 +37,8 @@ throwTimer = 0;
 isAttacking = false;
 throw_x = 0;
 throw_y = 0;
-souls = 0;
 iFrames = 0;
-
+souls = 0;
 
 //Sprites
 maskSpr = sPlayerIdle;

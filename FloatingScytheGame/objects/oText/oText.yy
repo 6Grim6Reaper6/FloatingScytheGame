@@ -8,6 +8,7 @@
   "name":"oText",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oTextbox","path":"objects/oTextbox/oTextbox.yy",},"propertyId":{"name":"text","path":"objects/oTextbox/oTextbox.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".....?",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oTextbox","path":"objects/oTextbox/oTextbox.yy",},"propertyId":{"name":"permenant","path":"objects/oTextbox/oTextbox.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"true",},
   ],
   "parent":{
     "name":"FloatingText",
