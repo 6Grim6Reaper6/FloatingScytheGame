@@ -24,7 +24,7 @@ else
 	throw_y = vector[1];
 	split = true;
 	jumpMax = 1;
-	throwTimer = 15; 
+	throwTimer = 1; 
 	
 	//Change sprites
 	maskSpr = sPlayerIdleScythe;
@@ -36,3 +36,6 @@ else
 	
 	//instance_create_depth(x, y, depth, oBonepile);
 }
+
+
+instance_create_depth(0,0,-99999,oWarpStart);

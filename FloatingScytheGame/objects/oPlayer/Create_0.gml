@@ -3,7 +3,7 @@ function getHit(HitterX, HitterY)
 	if (iFrames > 0) { return; }
 	var vector = getVector(HitterX, HitterY);
 	throw_x = -1 * vector[0];
-	throw_y = -1 * vector[1];
+	throw_y = -1.2 * vector[1];
 	if (souls == 0)
 	{
 		// implement game over
