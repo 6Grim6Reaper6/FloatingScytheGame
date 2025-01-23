@@ -55,7 +55,6 @@
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oHazard","path":"objects/oHazard/oHazard.yy",},},
     {"id":{"name":"oNewGame","path":"objects/oNewGame/oNewGame.yy",},},
-    {"id":{"name":"oParEnemy","path":"objects/oParEnemy/oParEnemy.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSave","path":"objects/oSave/oSave.yy",},},
     {"id":{"name":"oSlime","path":"objects/oSlime/oSlime.yy",},},
@@ -113,8 +112,8 @@
     {"roomId":{"name":"rminit","path":"rooms/rminit/rminit.yy",},},
     {"roomId":{"name":"Level1Part1","path":"rooms/Level1Part1/Level1Part1.yy",},},
     {"roomId":{"name":"Level1Part2","path":"rooms/Level1Part2/Level1Part2.yy",},},
-    {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
+    {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

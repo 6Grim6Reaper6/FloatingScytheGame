@@ -1,4 +1,3 @@
-event_inherited();
 if (not hit)
 {
 	// check distance to player, if too far then move randomly

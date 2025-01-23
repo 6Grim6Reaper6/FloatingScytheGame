@@ -1,4 +1,3 @@
-if !instance_exists(oWarpStart){
 if (jumpCount < jumpMax)
 {
 	if (onWall != 0)
@@ -15,5 +14,4 @@ if (jumpCount < jumpMax)
 	jumpHoldTimer = jumpHoldFrames[jumpCount - 1];
 	//Tell ourself we're no longer on the ground
 	onGround = false;
-}
 }
