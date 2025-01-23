@@ -86,3 +86,4 @@ coytoeHangTimer = 0;
 //Jump buffer time
 coyoteJumpFrames = 4;
 coyoteJumpTimer = 0;
+GameStart = true;

@@ -1,3 +1,5 @@
+if GameStart
+{
 // Throw scythe
 if (split)
 {
@@ -33,9 +35,8 @@ else
 	runSpr = sPlayerRunScytheTest;
 	slideSpr = sPlayeSlideScythe;
 	jumpSpr = sPlayerRunScytheTest;
-	
+	GameStart = false;
 	//instance_create_depth(x, y, depth, oBonepile);
 }
-
-
+}
 instance_create_depth(0,0,-99999,oWarpStart);
