@@ -1,6 +1,7 @@
 global.game_data = 
 {
-	room_data: {}
+	room_data: {},
+	activeRoom: room
 };
 
 function loadStruct(ID, data)
@@ -16,6 +17,8 @@ function save_game()
 {
 	
 	save_room();
+	
+	global.game_data.activeRoom = room;
 	
 	var _string = json_stringify( global.game_data);
 	
@@ -118,9 +121,10 @@ function save_room()
 	
 }
 
-function load_game()
-{
 
+/// loads global.game_data from file and returns if file existed
+function load_data()
+{
 	if( file_exists( "save.txt")) 
 	{
 		var _buffer = buffer_load( "save.txt");
@@ -130,13 +134,19 @@ function load_game()
 		buffer_delete( _buffer);
 		
 		global.game_data = json_parse( _json);
-		
-		room_goto(global.activeRoom);
-		
-		load_room();
-
+		return true;
 	}
+	return false;
+}
 
+
+function load_game()
+{
+	load_data();
+	
+	room_goto(global.game_data.activeRoom);
+		
+	load_room();
 }
 
 function load_room()

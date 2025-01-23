@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"oNewGame",
+  "%Name":"oSettings",
   "eventList":[],
   "managed":true,
-  "name":"oNewGame",
-  "overriddenProperties":[],
+  "name":"oSettings",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oMenuButton","path":"objects/oMenuButton/oMenuButton.yy",},"propertyId":{"name":"text","path":"objects/oMenuButton/oMenuButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Settings",},
+  ],
   "parent":{
     "name":"MenuButtons",
     "path":"folders/Objects/GUI/MenuButtons.yy",
   },
   "parentObjectId":{
-    "name":"oTextbox",
-    "path":"objects/oTextbox/oTextbox.yy",
+    "name":"oMenuButton",
+    "path":"objects/oMenuButton/oMenuButton.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sTextbox",
+    "path":"sprites/sTextbox/sTextbox.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
