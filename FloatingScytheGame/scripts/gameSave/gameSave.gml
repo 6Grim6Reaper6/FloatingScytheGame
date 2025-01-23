@@ -1,6 +1,6 @@
 global.game_data = 
 {
-	room_data: {}
+	room_data: {}	
 };
 
 function loadStruct(ID, data)
@@ -131,6 +131,8 @@ function load_game()
 		
 		global.game_data = json_parse( _json);
 		
+		room_goto(global.activeRoom);
+		
 		load_room();
 
 	}
@@ -139,7 +141,6 @@ function load_game()
 
 function load_room()
 {
-	
 	var _array = struct_get( global.game_data.room_data, room_get_name(room));
 	
 	if( _array != undefined)

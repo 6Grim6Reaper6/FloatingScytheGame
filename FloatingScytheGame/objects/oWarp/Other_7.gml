@@ -3,5 +3,8 @@ oPlayer.x = target_x;
 oPlayer.y = target_y;
 
 oPlayer.face = target_face;
+<<<<<<< Updated upstream
 //oPlayer.split = target_scythe;
+=======
+>>>>>>> Stashed changes
 image_speed = -1;

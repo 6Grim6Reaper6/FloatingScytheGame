@@ -32,7 +32,7 @@ controlsSetup();
 
 
 // Combat
-split = false;
+split = true;
 throwTimer = 0;
 isAttacking = false;
 throw_x = 0;
@@ -41,12 +41,12 @@ iFrames = 0;
 souls = 0;
 
 //Sprites
-maskSpr = sPlayerIdle;
-idleSpr = sPlayerIdle;
-walkSpr = sPlayerWalk;
-runSpr = sPlayerRunTest;
-slideSpr = sPlayeSlide;
-jumpSpr = sPlayerJump;
+maskSpr = sPlayerIdleScythe;
+idleSpr = sPlayerIdleScythe;
+walkSpr = sPlayerWalkScythe;
+runSpr = sPlayerRunScytheTest;
+slideSpr = sPlayeSlideScythe;
+jumpSpr = sPlayerRunScytheTest;
 
 
 //Moving
@@ -65,7 +65,7 @@ maxStepAssist = -2;
 //Jumping
 termVel = 4;
 onGround = false;
-jumpMax = 2;
+jumpMax = 1;
 jumpCount = 0;
 jumpHoldTimer = 0;
 wallBoost = 0;
