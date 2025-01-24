@@ -10,10 +10,12 @@
     {"name":"inst_47825B39","path":"rooms/MainMenu/MainMenu.yy",},
     {"name":"inst_4DB44281","path":"rooms/MainMenu/MainMenu.yy",},
     {"name":"inst_7FD1DD6D","path":"rooms/MainMenu/MainMenu.yy",},
+    {"name":"inst_628C38","path":"rooms/MainMenu/MainMenu.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_628C38","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_628C38","objectId":{"name":"oMenuBackground","path":"objects/oMenuBackground/oMenuBackground.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":3.5,"x":160.0,"y":32.0,},
         {"$GMRInstance":"v1","%Name":"inst_EAAE8F7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_EAAE8F7","objectId":{"name":"oNewGameButton","path":"objects/oNewGameButton/oNewGameButton.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":240.0,"y":120.0,},
         {"$GMRInstance":"v1","%Name":"inst_47825B39","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_47825B39","objectId":{"name":"oLoadButton","path":"objects/oLoadButton/oLoadButton.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":240.0,"y":140.0,},
         {"$GMRInstance":"v1","%Name":"inst_4DB44281","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4DB44281","objectId":{"name":"oSettings","path":"objects/oSettings/oSettings.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":240.0,"y":160.0,},

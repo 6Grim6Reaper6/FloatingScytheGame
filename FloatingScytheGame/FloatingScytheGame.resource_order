@@ -37,6 +37,7 @@
   "ResourceOrderSettings":[
     {"name":"ft_menu","order":1,"path":"fonts/ft_menu/ft_menu.yy",},
     {"name":"oLoadButton","order":1,"path":"objects/oLoadButton/oLoadButton.yy",},
+    {"name":"oMenuBackground","order":5,"path":"objects/oMenuBackground/oMenuBackground.yy",},
     {"name":"oMenuButton","order":2,"path":"objects/oMenuButton/oMenuButton.yy",},
     {"name":"oPause","order":4,"path":"objects/oPause/oPause.yy",},
     {"name":"oSave","order":1,"path":"objects/oSave/oSave.yy",},
@@ -54,6 +55,7 @@
     {"name":"rminit","order":1,"path":"rooms/rminit/rminit.yy",},
     {"name":"SettingsMenu","order":1,"path":"rooms/SettingsMenu/SettingsMenu.yy",},
     {"name":"gameSave","order":1,"path":"scripts/gameSave/gameSave.yy",},
+    {"name":"sMenuBackground","order":2,"path":"sprites/sMenuBackground/sMenuBackground.yy",},
     {"name":"sPlayerIdle","order":1,"path":"sprites/sPlayerIdle/sPlayerIdle.yy",},
     {"name":"sPlayerJump","order":2,"path":"sprites/sPlayerJump/sPlayerJump.yy",},
     {"name":"sPlayerJumpScythe","order":1,"path":"sprites/sPlayerJumpScythe/sPlayerJumpScythe.yy",},
