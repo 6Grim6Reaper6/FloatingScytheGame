@@ -4,9 +4,12 @@ function getHit(HitterX, HitterY)
 	var vector = getVector(HitterX, HitterY);
 	throw_x = -1 * vector[0];
 	throw_y = -1.2 * vector[1];
-	if (souls == 0)
+	if (souls == 0 && death = false)
 	{
 		// implement game over
+		instance_create_depth(x, y, depth, oDeath);
+		death = true;
+		
 	}
 	else
 	{
@@ -38,7 +41,8 @@ isAttacking = false;
 throw_x = 0;
 throw_y = 0;
 iFrames = 0;
-souls = 0;
+souls = 1;
+death = false;
 
 //Sprites
 maskSpr = sPlayerIdleScythe;

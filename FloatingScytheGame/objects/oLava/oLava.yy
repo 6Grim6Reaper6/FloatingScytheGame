@@ -10,8 +10,8 @@
     "path":"folders/Objects/Hazards/Tiles.yy",
   },
   "parentObjectId":{
-    "name":"oSpikes",
-    "path":"objects/oSpikes/oSpikes.yy",
+    "name":"oHazard",
+    "path":"objects/oHazard/oHazard.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"sLava",
-    "path":"sprites/sLava/sLava.yy",
+    "name":"sWarpBlock",
+    "path":"sprites/sWarpBlock/sWarpBlock.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

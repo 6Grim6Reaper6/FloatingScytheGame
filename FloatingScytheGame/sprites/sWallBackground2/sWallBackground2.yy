@@ -23,10 +23,11 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"8d28aba3-7032-440c-b458-05f017f795a5","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"8d28aba3-7032-440c-b458-05f017f795a5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"96db476a-40ee-45ff-95b4-655a90d025a1","blendMode":0,"displayName":"Layer 1 (2) (2)","isLocked":false,"name":"96db476a-40ee-45ff-95b4-655a90d025a1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"649d4dc7-cb4e-4470-8c02-65af9922fd45","blendMode":0,"displayName":"Layer 1 (2)","isLocked":false,"name":"649d4dc7-cb4e-4470-8c02-65af9922fd45","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"0d1a9a06-4204-48f5-8692-24ca98527ed1","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"0d1a9a06-4204-48f5-8692-24ca98527ed1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"b979927e-9959-4c1a-83b6-a3c7f82a68c3","blendMode":0,"displayName":"default","isLocked":false,"name":"b979927e-9959-4c1a-83b6-a3c7f82a68c3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8f9d4ddf-27a4-4e22-a5b1-22d0597712be","blendMode":0,"displayName":"Layer 1 (2) (2) (2)","isLocked":false,"name":"8f9d4ddf-27a4-4e22-a5b1-22d0597712be","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"96db476a-40ee-45ff-95b4-655a90d025a1","blendMode":0,"displayName":"Layer 1 (2) (2)","isLocked":false,"name":"96db476a-40ee-45ff-95b4-655a90d025a1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
+    {"$GMImageLayer":"","%Name":"649d4dc7-cb4e-4470-8c02-65af9922fd45","blendMode":0,"displayName":"Layer 1 (2)","isLocked":false,"name":"649d4dc7-cb4e-4470-8c02-65af9922fd45","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
+    {"$GMImageLayer":"","%Name":"0d1a9a06-4204-48f5-8692-24ca98527ed1","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"0d1a9a06-4204-48f5-8692-24ca98527ed1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
+    {"$GMImageLayer":"","%Name":"b979927e-9959-4c1a-83b6-a3c7f82a68c3","blendMode":0,"displayName":"default","isLocked":false,"name":"b979927e-9959-4c1a-83b6-a3c7f82a68c3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
   ],
   "name":"sWallBackground2",
   "nineSlice":{
