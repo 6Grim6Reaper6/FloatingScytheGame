@@ -10,4 +10,5 @@ if image_index = 6{
 				bodypart.image_index = i;
 				//if i == 5 bodypart.image_angle = 130;
 				}
+				instance_create_layer(oDeath.x - 18, oDeath.y - 80, "Instances", oGameOverText);
 }

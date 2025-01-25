@@ -48,7 +48,7 @@ else
 
 if (wallBoost > 0)
 { 
-	xspd += -1 * xDir * moveSpd[0];
+	xspd += -1 * xDir * moveSpd[1];
 	wallBoost--;
 }
 

@@ -1,3 +1,3 @@
-global.loadingRoom = false;
-global.paused = false;
-room_goto_next();
+gameInit();
+if (global.firstTime) { room_goto(SettingsMenu); }
+else { room_goto(MainMenu); }

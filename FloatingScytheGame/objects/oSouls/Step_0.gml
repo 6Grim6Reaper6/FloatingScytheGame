@@ -1,3 +1,6 @@
+if (fading > 0) { fading--; }
+if (fading == 0) { collected = true; }
+
 if (not place_free (x + dx, y))
 {
 	if (abs(dx) >= 2)
@@ -10,6 +13,7 @@ if (not place_free (x + dx, y))
 		dx = 0;
 	}
 }
+
 var moveDir = round(dx / 5);
 if (not place_free(x, y + 1)) { dx *= fr; }
 

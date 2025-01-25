@@ -8,6 +8,7 @@ if (not hit)
 	else
 	{
 		xspd = 4;
+		//if (jumpStep == 0) { audio_play_sound_at(aSlimeJump, x, y, depth, ) 
 		if ((jumpStep == 0 and onGround) or (jumpStep < (array_length(jumpSequance) * 2) and not onGround))
 		{
 			yspd = jumpSequance[jumpStep / 2];
@@ -17,7 +18,7 @@ if (not hit)
 		else
 		{
 			jumpStep = 0;
-			idle = 50;
+			idle = idleMax;
 		}
 	}
 

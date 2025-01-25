@@ -1,2 +1,2 @@
-clicked = true;
+event_inherited();
 text = Localtext;

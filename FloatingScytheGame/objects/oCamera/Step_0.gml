@@ -1,7 +1,9 @@
 //Fullscreen toggle
 if keyboard_check_pressed(vk_f11)
 {
-	window_set_fullscreen( !window_get_fullscreen());
+	global.settings.fullscreen = not global.settings.fullscreen;
+	window_set_fullscreen( global.settings.fullscreen);
+	
 }
 
 //Exit if there is no player

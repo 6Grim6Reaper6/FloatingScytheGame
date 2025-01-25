@@ -13,11 +13,14 @@ function getHit(HitterX, HitterY)
 	}
 	else
 	{
+		var soul;
 		repeat (souls)
 		{
-			instance_create_depth(x, y, depth, oSouls);
+			soul = instance_create_depth(x, y, depth, oSouls);
+			soul.fading = soul.fadeTimer;
 			souls--;
 		}
+				
 		iFrames = 15;
 	}
 }
