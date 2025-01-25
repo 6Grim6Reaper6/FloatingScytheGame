@@ -117,3 +117,4 @@ layer_x(front, lerp(0, camera_get_view_x(view_camera[0]), 1));
 layer_y(front, lerp(0, camera_get_view_y(view_camera[0]), 1));
 layer_x(near, lerp(0, camera_get_view_x(view_camera[0]), 0.4));
 layer_x(far, lerp(0, camera_get_view_x(view_camera[0]), 0.6));
+//layer_y(far, lerp(0, camera_get_view_y(view_camera[0]), 0.2));
