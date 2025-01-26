@@ -76,6 +76,7 @@
     {"name":"gameSave","order":1,"path":"scripts/gameSave/gameSave.yy",},
     {"name":"gameSettings","order":2,"path":"scripts/gameSettings/gameSettings.yy",},
     {"name":"aButtonSound","order":2,"path":"sounds/aButtonSound/aButtonSound.yy",},
+    {"name":"aScytheSpin","order":4,"path":"sounds/aScytheSpin/aScytheSpin.yy",},
     {"name":"aSoulCollect","order":3,"path":"sounds/aSoulCollect/aSoulCollect.yy",},
     {"name":"sFog","order":3,"path":"sprites/sFog/sFog.yy",},
     {"name":"sGameOverText","order":4,"path":"sprites/sGameOverText/sGameOverText.yy",},
