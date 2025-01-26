@@ -9,7 +9,6 @@ function getHit(HitterX, HitterY)
 		// implement game over
 		instance_create_depth(x, y, depth, oDeath);
 		death = true;
-		
 	}
 	else
 	{
@@ -21,7 +20,7 @@ function getHit(HitterX, HitterY)
 			souls--;
 		}
 				
-		iFrames = 15;
+		iFrames = 30;
 	}
 }
 
@@ -93,3 +92,5 @@ coytoeHangTimer = 0;
 coyoteJumpFrames = 4;
 coyoteJumpTimer = 0;
 GameStart = true;
+
+audio_listener_orientation(0, 1, 0, 0, 0, 1);

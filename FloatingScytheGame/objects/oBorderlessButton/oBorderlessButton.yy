@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oNewGameButton",
+  "%Name":"oBorderlessButton",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oNewGameButton",
+  "name":"oBorderlessButton",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oMenuButton","path":"objects/oMenuButton/oMenuButton.yy",},"propertyId":{"name":"text","path":"objects/oMenuButton/oMenuButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"New game",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oMenuButton","path":"objects/oMenuButton/oMenuButton.yy",},"propertyId":{"name":"text","path":"objects/oMenuButton/oMenuButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Borderless",},
   ],
   "parent":{
-    "name":"Main buttons",
-    "path":"folders/Objects/GUI/MenuButtons/Main buttons.yy",
+    "name":"Display buttons",
+    "path":"folders/Objects/GUI/MenuButtons/Display buttons.yy",
   },
   "parentObjectId":{
     "name":"oMenuButton",

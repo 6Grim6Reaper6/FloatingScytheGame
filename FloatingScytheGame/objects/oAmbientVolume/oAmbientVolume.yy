@@ -11,8 +11,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oMenuButton","path":"objects/oMenuButton/oMenuButton.yy",},"propertyId":{"name":"text","path":"objects/oMenuButton/oMenuButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Ambient: ",},
   ],
   "parent":{
-    "name":"SettingsButtons",
-    "path":"folders/Objects/GUI/MenuButtons/SettingsButtons.yy",
+    "name":"Audio buttons",
+    "path":"folders/Objects/GUI/MenuButtons/Audio buttons.yy",
   },
   "parentObjectId":{
     "name":"oMenuButton",

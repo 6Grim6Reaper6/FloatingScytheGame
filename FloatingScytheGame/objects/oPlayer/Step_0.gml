@@ -100,9 +100,12 @@ if (onWall != 0 and wallBoost <= 0)
 	jumpCount = 0;
 }
 
-
+// Moves and makes sure not to hit wall
 move_and_collide(xspd, yspd, oWall, 8, 0, maxStepAssist, 999999, 999999);
 xspd = 0;
+
+// Sets audio reciver to player location
+audio_listener_position(x, y , 0);
 
 // Check if on ground
 onGround = (place_meeting(x, y + 2, oWall));

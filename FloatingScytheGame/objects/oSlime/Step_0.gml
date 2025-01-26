@@ -1,3 +1,5 @@
+audio_emitter_position(emitter, x, y, 0);
+
 if (not hit)
 {
 	// check distance to player, if too far then move randomly
@@ -8,7 +10,11 @@ if (not hit)
 	else
 	{
 		xspd = 4;
-		//if (jumpStep == 0) { audio_play_sound_at(aSlimeJump, x, y, depth, ) 
+		if (jumpStep == 0 and distance_to_object(oPlayer) < 400)
+		{ 
+			audio_play_sound_on(emitter, aSlimeJump, false, 0);
+			//audio_play_sound_at(aSlimeJump, x, y, 0, 400, 400, 1, false, 0, audio_group_get_gain(agSFX), 0, random_range(0.8, 1.2));
+		}
 		if ((jumpStep == 0 and onGround) or (jumpStep < (array_length(jumpSequance) * 2) and not onGround))
 		{
 			yspd = jumpSequance[jumpStep / 2];
@@ -32,7 +38,7 @@ if (not hit)
 		yspd = 0;
 		sprite_index = sSlimeIdle;
 	}
-	move_and_collide(xspd * xDir, yspd, oWall, 4, 0, 4);
+	move_and_collide(xspd * xDir, yspd, oWall, 4, 0, 8);
 	xspd = 0;
 	onGround = (place_meeting(x, y + 4, oWall));
 }
