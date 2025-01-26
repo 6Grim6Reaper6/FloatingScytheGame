@@ -20,7 +20,7 @@ function getHit(HitterX, HitterY)
 			souls--;
 		}
 				
-		iFrames = 30;
+		iFrames = 20;
 	}
 }
 
