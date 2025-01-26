@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":3.157914,
+  "duration":3.445208,
   "name":"aScytheSpin",
   "parent":{
     "name":"Sounds",
