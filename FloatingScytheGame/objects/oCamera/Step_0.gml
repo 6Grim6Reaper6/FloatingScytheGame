@@ -24,5 +24,6 @@ _camY = clamp( _camY, 0, room_height - _camHeight);
 //Set cam coordinate variables
 finalCamX += (_camX - finalCamX) * camTrailSpd;
 finalCamY += (_camY - finalCamY) * camTrailSpd;
+
 //Set camera coordinates
 camera_set_view_pos(view_camera[0], finalCamX, finalCamY);
