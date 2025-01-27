@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"aBackground1",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"agMusic",
+    "path":"audiogroups/agMusic",
   },
   "bitDepth":1,
   "bitRate":128,
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"aBackground1.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.06,
 }
