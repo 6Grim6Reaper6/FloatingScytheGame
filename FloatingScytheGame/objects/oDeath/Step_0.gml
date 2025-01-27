@@ -11,11 +11,11 @@ if image_index = 6{
 	//if i == 5 bodypart.image_angle = 130;
 	}
 	
-	instance_create_layer(oDeath.x - 18, oDeath.y - 80, "Instances", oGameOverText);
-	var _button = instance_create_depth(oDeath.x - 20, oDeath.y - 50, oDeath.depth - 1, oNewGameButton);
+	instance_create_layer(oCamera.finalCamX + 240, oCamera.finalCamY + 100, "Instances", oGameOverText);
+	var _button = instance_create_depth(oCamera.finalCamX + 240, oCamera.finalCamY + 130, oDeath.depth - 1, oNewGameButton);
 	_button.image_xscale = 3.5;
 	_button.text = "Start Over";
 	
-	_button = instance_create_depth(oDeath.x - 20, oDeath.y - 30, oDeath.depth - 1, oMainMenuButton);
+	_button = instance_create_depth(oCamera.finalCamX + 240, oCamera.finalCamY +150, oDeath.depth - 1, oMainMenuButton);
 	_button.image_xscale = 3.5;
 }

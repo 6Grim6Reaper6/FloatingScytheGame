@@ -1,6 +1,4 @@
 
-
-
 if iframe >= 0
 {
 	iframe--;
