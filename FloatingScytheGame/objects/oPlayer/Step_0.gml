@@ -57,6 +57,7 @@ if (place_meeting(x, y - 8, oWall))
 {
 	onWall = 0;
 	jumpHoldTimer = 0;
+	yspd = jspd[0];
 }
 
 if (onWall != 0 and wallBoost <= 0)
