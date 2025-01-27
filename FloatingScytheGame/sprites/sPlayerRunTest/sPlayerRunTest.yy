@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Scythe",
-    "path":"folders/Sprites/Player/Scythe.yy",
+    "name":"Skeleton",
+    "path":"folders/Sprites/Player/Skeleton.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -26,7 +26,7 @@
   "origin":7,
   "parent":{
     "name":"Slime",
-    "path":"folders/Sprites/Enemies/Slime.yy",
+    "path":"folders/Sprites/Enemies/Regular/Slime.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

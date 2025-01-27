@@ -44,6 +44,11 @@ if (not hit)
 }
 else
 {
-	sprite_index = sSlimeDeath;
+	//sprite_index = sSlimeDeath;
+	
+
+	instance_destroy();
+
+
 }
 
