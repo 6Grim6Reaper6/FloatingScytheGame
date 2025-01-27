@@ -86,6 +86,7 @@
     {"name":"SettingsMenu","order":1,"path":"rooms/SettingsMenu/SettingsMenu.yy",},
     {"name":"gameSave","order":1,"path":"scripts/gameSave/gameSave.yy",},
     {"name":"gameSettings","order":2,"path":"scripts/gameSettings/gameSettings.yy",},
+    {"name":"aAttack1","order":6,"path":"sounds/aAttack1/aAttack1.yy",},
     {"name":"aBackground1","order":5,"path":"sounds/aBackground1/aBackground1.yy",},
     {"name":"aBackground2","order":6,"path":"sounds/aBackground2/aBackground2.yy",},
     {"name":"aBackground3","order":7,"path":"sounds/aBackground3/aBackground3.yy",},

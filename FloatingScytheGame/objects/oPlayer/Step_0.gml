@@ -1,27 +1,3 @@
-//Sprite Control
-//Walking
-face = xDir;
-if (abs(xspd) > 0) {sprite_index = walkSpr;};
-//Running
-if (abs(xspd) >= moveSpd[1]) {sprite_index = runSpr;};
-//not moving
-if xspd == 0 {sprite_index = idleSpr;};
-//In the air
-if (not onGround)
-{
-	if (onWall != 0)
-	{
-		if (not split) { face *= -1; }
-		sprite_index = slideSpr;
-	}
-	else{
-	sprite_index = jumpSpr;
-	}
-		
-}
-//set the collision mask
-mask_index = maskSpr;
-
 
 //Get Inputs
 getControls();
@@ -32,18 +8,20 @@ if (iFrames > 0)// Tick down iFrames
 	iFrames--;
 
 } 
+if (attackFrame > 0)
+{
+	if (attackFrame == 1) { isAttacking = false; attack = 0;}
+	attackFrame--;
+}
+
 
 // Handle throwing
 if (throwTimer > 0)
 { 
-	isAttacking = true;
 	xspd = throw_x * throwTimer;
 	yspd = throw_y * throwTimer;
-	throwTimer--;	
-}
-else
-{
-	isAttacking = false;
+	if (throwTimer == 1) { isAttacking = false; }
+	throwTimer--;
 }
 
 if (wallBoost > 0)
@@ -103,7 +81,7 @@ if (onWall != 0 and wallBoost <= 0)
 
 // Moves and makes sure not to hit wall
 move_and_collide(xspd, yspd, oWall, 8, 0, maxStepAssist, 999999, 999999);
-xspd = 0;
+
 
 // Sets audio reciver to player location
 audio_listener_position(x, y , 0);

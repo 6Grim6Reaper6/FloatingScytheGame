@@ -4,6 +4,7 @@ function getHit(HitterX, HitterY)
 	var vector = getVector(HitterX, HitterY);
 	throw_x = -1 * vector[0];
 	throw_y = -1.2 * vector[1];
+	
 	if (souls == 0 && death = false)
 	{
 		// implement game over
@@ -45,6 +46,8 @@ throw_y = 0;
 iFrames = 0;
 souls = 1;
 death = false;
+attackFrame = 0;
+attack = 0;
 
 //Sprites
 maskSpr = sPlayerIdleScythe;
@@ -88,6 +91,8 @@ jspd[2] = -2.85;
 //Hang time
 coyoteHangFrames = 2;
 coytoeHangTimer = 0;
+
+
 //Jump buffer time
 coyoteJumpFrames = 4;
 coyoteJumpTimer = 0;
