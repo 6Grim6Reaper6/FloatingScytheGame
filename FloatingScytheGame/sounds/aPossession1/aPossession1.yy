@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"aSoulCollect",
+  "%Name":"aPossession1",
   "audioGroupId":{
     "name":"agSFX",
     "path":"audiogroups/agSFX",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.188208,
-  "name":"aSoulCollect",
+  "duration":0.576,
+  "name":"aPossession1",
   "parent":{
-    "name":"Objects",
-    "path":"folders/Sounds/Objects.yy",
+    "name":"Player sounds",
+    "path":"folders/Sounds/Player sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"aSoulCollect.wav",
+  "soundFile":"aPossession1.mp3",
   "type":0,
-  "volume":0.3,
+  "volume":0.25,
 }

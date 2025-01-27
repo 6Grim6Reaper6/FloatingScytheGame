@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"aSoulCollect",
+  "%Name":"aDoor",
   "audioGroupId":{
     "name":"agSFX",
     "path":"audiogroups/agSFX",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.188208,
-  "name":"aSoulCollect",
+  "duration":2.352,
+  "name":"aDoor",
   "parent":{
     "name":"Objects",
     "path":"folders/Sounds/Objects.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"aSoulCollect.wav",
+  "soundFile":"aDoor.mp3",
   "type":0,
-  "volume":0.3,
+  "volume":0.75,
 }
