@@ -110,6 +110,7 @@
     {"name":"sSkeletonRun","order":2,"path":"sprites/sSkeletonRun/sSkeletonRun.yy",},
     {"name":"sSlimeAttackBoss","order":3,"path":"sprites/sSlimeAttackBoss/sSlimeAttackBoss.yy",},
     {"name":"sSlimeDeath","order":2,"path":"sprites/sSlimeDeath/sSlimeDeath.yy",},
+    {"name":"sSlimeDeathBossUpdated","order":4,"path":"sprites/sSlimeDeathBossUpdated/sSlimeDeathBossUpdated.yy",},
     {"name":"sSlimeDeathTest","order":3,"path":"sprites/sSlimeDeathTest/sSlimeDeathTest.yy",},
     {"name":"sSlimeIdleBoss","order":1,"path":"sprites/sSlimeIdleBoss/sSlimeIdleBoss.yy",},
     {"name":"sSlimeJump","order":1,"path":"sprites/sSlimeJump/sSlimeJump.yy",},

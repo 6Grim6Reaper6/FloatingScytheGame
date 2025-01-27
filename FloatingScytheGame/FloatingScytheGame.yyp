@@ -157,6 +157,7 @@
     {"id":{"name":"sSlimeAttackBoss","path":"sprites/sSlimeAttackBoss/sSlimeAttackBoss.yy",},},
     {"id":{"name":"sSlimeDeath","path":"sprites/sSlimeDeath/sSlimeDeath.yy",},},
     {"id":{"name":"sSlimeDeathBoss","path":"sprites/sSlimeDeathBoss/sSlimeDeathBoss.yy",},},
+    {"id":{"name":"sSlimeDeathBossUpdated","path":"sprites/sSlimeDeathBossUpdated/sSlimeDeathBossUpdated.yy",},},
     {"id":{"name":"sSlimeDeathTest","path":"sprites/sSlimeDeathTest/sSlimeDeathTest.yy",},},
     {"id":{"name":"sSlimeIdle","path":"sprites/sSlimeIdle/sSlimeIdle.yy",},},
     {"id":{"name":"sSlimeIdleBoss","path":"sprites/sSlimeIdleBoss/sSlimeIdleBoss.yy",},},
