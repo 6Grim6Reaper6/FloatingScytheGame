@@ -31,7 +31,6 @@ function getHit(HitterX, HitterY)
 			{
 				audio_play_sound(choose(aThrow1, aThrow2, aThrow3), 1, false);
 				onGround = false;
-				isAttacking = true;
 				var vector = getVector(mouse_x, mouse_y);
 				throw_x = vector[0];
 				throw_y = vector[1];
