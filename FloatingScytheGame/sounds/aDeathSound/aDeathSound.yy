@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"aBackground2",
+  "%Name":"aDeathSound",
   "audioGroupId":{
     "name":"agMusic",
     "path":"audiogroups/agMusic",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":138.2661,
-  "name":"aBackground2",
+  "duration":5.688,
+  "name":"aDeathSound",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"aBackground2.mp3",
+  "soundFile":"aDeathSound.mp3",
   "type":0,
-  "volume":0.02,
+  "volume":0.5,
 }

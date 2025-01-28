@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"aNormalLevelMusic",
+  "audioGroupId":{
+    "name":"agMusic",
+    "path":"audiogroups/agMusic",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":138.2661,
+  "name":"aNormalLevelMusic",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"aNormalLevelMusic.mp3",
+  "type":0,
+  "volume":0.2,
+}

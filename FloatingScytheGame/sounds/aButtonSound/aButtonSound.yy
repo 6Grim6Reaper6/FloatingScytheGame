@@ -12,8 +12,8 @@
   "duration":0.384,
   "name":"aButtonSound",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Objects",
+    "path":"folders/Sounds/Objects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

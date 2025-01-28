@@ -25,7 +25,7 @@ function gameInit()
 	audio_group_load(agMusic);
 	audio_group_load(agAmbient);
 	audio_group_load(agSFX);
-	
+		
 	audio_group_set_gain(agMusic, global.settings.Music / 100, 0);
 	audio_group_set_gain(agAmbient, global.settings.Ambient / 100, 0);
 	audio_group_set_gain(agSFX, global.settings.SFX / 100, 0);	

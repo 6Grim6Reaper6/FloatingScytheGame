@@ -9,3 +9,5 @@ if instance_exists(oText)
 {
 	instance_destroy(oText);
 }
+audio_stop_all();
+audio_play_sound(aDeathSound, 0, false);

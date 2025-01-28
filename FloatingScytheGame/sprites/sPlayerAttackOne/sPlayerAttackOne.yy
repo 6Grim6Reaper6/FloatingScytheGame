@@ -63,7 +63,7 @@
     },
     "name":"sPlayerAttackOne",
     "playback":1,
-    "playbackSpeed":8.0,
+    "playbackSpeed":16.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

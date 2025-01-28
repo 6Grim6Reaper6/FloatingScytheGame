@@ -8,4 +8,8 @@ with(oPause)
 	} 
 }
 instance_destroy(oPlayer);
+with (oMusicPlayer)
+{
+	LastRoomTag = -1;
+}
 room_goto(Level1Part1);

@@ -21,7 +21,7 @@ else
 //Sprite Control
 //Walking
 face = xDir;
-if (attackFrame == 0)
+if (attackFrame == 0 and attackCharge == 0)
 {
 	if (abs(xspd) > 0) {sprite_index = walkSpr;};
 	//Running
@@ -45,15 +45,31 @@ if (attackFrame == 0)
 }
 else
 {
-	if (attack == 1) 
+	if (split)
 	{
-		sprite_index = sPlayerAttackOne;
-		mask_index = sPlayerAttackOne;
+		sprite_index = sPlayerScytheAttack;
+		mask_index = sPlayerScytheAttack;
 	}
 	else
 	{
-		sprite_index = sPlayerAttackTwo;
-		mask_index = sPlayerAttackTwo;
+		if (attack == 1) 
+		{
+			if (abs(xspd) >= moveSpd[1])
+			{
+				sprite_index = sPlayerRunAttack;
+				mask_index = sPlayerRunAttack;
+			}
+			else
+			{
+				sprite_index = sPlayerAttackOne;
+				mask_index = sPlayerAttackOne;
+			}
+		}
+		else
+		{
+			sprite_index = sPlayerAttackTwo;
+			mask_index = sPlayerAttackTwo;
+		}
 	}
 }
 
@@ -65,8 +81,8 @@ else
 draw_sprite_ext(sprite_index, image_index, x, y, image_xscale * face, image_yscale, image_angle, image_blend, image_alpha - ((iFrames % 10 ) * 0.1));
 if (not split)
 {
-	draw_sprite_stretched_ext(sStamina, 0,oPlayer.x-25,y-50,(stamina/stamina_max) * staminabar_width,staminabar_height,c_green,1);
+	draw_sprite_stretched_ext(sStamina, 0,oPlayer.x-25,y-50,(stamina/stamina_max) * staminabar_width,staminabar_height,c_green, 1);
 	//draw_sprite_stretched(sStamina, 0,oPlayer.x-25,y-70,(hp/hp_max) * staminabar_width,staminabar_height);
-	draw_sprite_stretched_ext(sStamina, 0,oPlayer.x-25,y-58,(hp/hp_max) * staminabar_width,staminabar_height,c_red,1);
+	draw_sprite_stretched_ext(sStamina, 0,oPlayer.x-25,y-58,(hp/hp_max) * staminabar_width,staminabar_height,c_red, 1);
 }
 xspd = 0;

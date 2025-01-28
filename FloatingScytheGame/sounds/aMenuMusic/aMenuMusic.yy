@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"aBackground1",
+  "%Name":"aMenuMusic",
   "audioGroupId":{
     "name":"agMusic",
     "path":"audiogroups/agMusic",
@@ -10,16 +10,16 @@
   "compression":0,
   "conversionMode":0,
   "duration":123.03672,
-  "name":"aBackground1",
+  "name":"aMenuMusic",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"aBackground1.mp3",
+  "soundFile":"aMenuMusic.mp3",
   "type":0,
-  "volume":0.06,
+  "volume":0.2,
 }

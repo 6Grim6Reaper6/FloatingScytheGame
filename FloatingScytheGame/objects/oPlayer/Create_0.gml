@@ -58,6 +58,8 @@ controlsSetup();
 
 
 // Combat
+attackCharging = false;
+attackCharge = 0;
 split = true;
 throwTimer = 0;
 isAttacking = false;

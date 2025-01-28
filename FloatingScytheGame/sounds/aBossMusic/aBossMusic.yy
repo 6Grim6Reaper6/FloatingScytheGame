@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"aBackground3",
+  "%Name":"aBossMusic",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,16 +10,16 @@
   "compression":0,
   "conversionMode":0,
   "duration":283.66367,
-  "name":"aBackground3",
+  "name":"aBossMusic",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"aBackground3.mp3",
+  "soundFile":"aBossMusic.mp3",
   "type":0,
-  "volume":0.1,
+  "volume":0.2,
 }

@@ -1,4 +1,4 @@
-if (attackFrame == 0)
+if (attack < 2 and attackCharge == 0)
 {
 	if (onWall != 1)
 	{

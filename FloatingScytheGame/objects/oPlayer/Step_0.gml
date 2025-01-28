@@ -8,6 +8,15 @@ if (iFrames > 0)// Tick down iFrames
 	iFrames--;
 
 } 
+
+if (attackCharge > 0 and not attackCharging)
+{
+	xspd = xDir * 15;
+	
+	if (attackCharge == 1) { isAttacking = false;}
+	attackCharge--;
+}
+
 if (attackFrame > 0)
 {
 	if (attackFrame == 1) { isAttacking = false; attack = 0;}
