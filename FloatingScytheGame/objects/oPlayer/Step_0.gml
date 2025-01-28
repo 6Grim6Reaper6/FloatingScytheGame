@@ -47,6 +47,17 @@ if (place_meeting(x, y - 8, oWall))
 	yspd = jspd[0];
 }
 
+<<<<<<< Updated upstream
+=======
+if (onWall != 0 and wallBoost <= 0 and not split)
+{
+	yspd *= 0.5;
+	
+	if (split) { yspd = 0; }
+	jumpCount = 0;
+}
+
+>>>>>>> Stashed changes
 if (onGround)
 {
 	yspd = 0;
