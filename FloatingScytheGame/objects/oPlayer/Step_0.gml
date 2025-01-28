@@ -48,7 +48,10 @@ if (place_meeting(x, y - 8, oWall))
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 if (onWall != 0 and wallBoost <= 0 and not split)
 {
 	yspd *= 0.5;
