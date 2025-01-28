@@ -142,6 +142,7 @@
     {"name":"sSpikes","order":8,"path":"sprites/sSpikes/sSpikes.yy",},
     {"name":"sStamina","order":2,"path":"sprites/sStamina/sStamina.yy",},
     {"name":"sTextbox","order":1,"path":"sprites/sTextbox/sTextbox.yy",},
+    {"name":"sTextboxNoback","order":5,"path":"sprites/sTextboxNoback/sTextboxNoback.yy",},
     {"name":"sWall","order":6,"path":"sprites/sWall/sWall.yy",},
     {"name":"sWallBackground","order":12,"path":"sprites/sWallBackground/sWallBackground.yy",},
     {"name":"sWallBackground2","order":13,"path":"sprites/sWallBackground2/sWallBackground2.yy",},

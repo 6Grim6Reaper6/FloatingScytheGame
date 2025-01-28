@@ -195,6 +195,7 @@
     {"id":{"name":"sSpikes","path":"sprites/sSpikes/sSpikes.yy",},},
     {"id":{"name":"sStamina","path":"sprites/sStamina/sStamina.yy",},},
     {"id":{"name":"sTextbox","path":"sprites/sTextbox/sTextbox.yy",},},
+    {"id":{"name":"sTextboxNoback","path":"sprites/sTextboxNoback/sTextboxNoback.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"sWallBackground","path":"sprites/sWallBackground/sWallBackground.yy",},},
     {"id":{"name":"sWallBackground2","path":"sprites/sWallBackground2/sWallBackground2.yy",},},
