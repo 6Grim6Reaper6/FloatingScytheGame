@@ -1,5 +1,8 @@
-if (onWall != 1)
+if (attackFrame == 0)
 {
-	xspd += moveSpd[runType];
-	xDir = 1;
+	if (onWall != 1)
+	{
+		xspd += moveSpd[runType];
+		xDir = 1;
+	}
 }

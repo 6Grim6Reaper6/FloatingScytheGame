@@ -20,8 +20,29 @@ function getHit(HitterX, HitterY)
 			soul.fading = soul.fadeTimer;
 			souls--;
 		}
-				
+		if (not split)
+			{
+				hp -= 40;
+			}
 		iFrames = 20;
+		if (hp == 0)
+		{
+			if (not split)
+			{
+				audio_play_sound(choose(aThrow1, aThrow2, aThrow3), 1, false);
+				onGround = false;
+				isAttacking = true;
+				var vector = getVector(mouse_x, mouse_y);
+				throw_x = vector[0];
+				throw_y = vector[1];
+				split = true;
+				jumpMax = 1;
+				throwTimer = 15;
+				
+				instance_create_depth(x, y, depth, oBonepile);
+			}
+			hp = 80;
+		}
 	}
 }
 
@@ -48,6 +69,15 @@ souls = 1;
 death = false;
 attackFrame = 0;
 attack = 0;
+stamina = 40;
+stamina_max = stamina;
+hp = 80;
+hp_max = hp;
+
+staminabar_width = 50;
+staminabar_height = 6;
+staminabar_x = (oPlayer.x +50) - (staminabar_width/2);
+staminabar_y = (oPlayer.y +50)
 
 //Sprites
 maskSpr = sPlayerIdleScythe;

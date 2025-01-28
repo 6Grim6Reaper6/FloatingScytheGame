@@ -12,6 +12,12 @@ if (attackFrame > 0)
 {
 	if (attackFrame == 1) { isAttacking = false; attack = 0;}
 	attackFrame--;
+	stamina--;
+}else{
+	if (stamina != 40)
+	{
+	stamina += .5;
+	}
 }
 
 
@@ -41,6 +47,7 @@ if (place_meeting(x, y - 8, oWall))
 if (onWall != 0 and wallBoost <= 0)
 {
 	yspd *= 0.5;
+	
 	if (split) { yspd = 0; }
 	jumpCount = 0;
 }
