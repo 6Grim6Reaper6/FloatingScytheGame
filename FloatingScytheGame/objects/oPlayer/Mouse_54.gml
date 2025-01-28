@@ -22,4 +22,5 @@ else
 	throwTimer = 15; 
 	
 	instance_create_depth(x, y, depth, oBonepile);
+	hp = 80;
 }
