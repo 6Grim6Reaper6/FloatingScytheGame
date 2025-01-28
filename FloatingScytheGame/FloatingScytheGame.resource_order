@@ -83,6 +83,7 @@
     {"name":"AudioSettingsMenu","order":2,"path":"rooms/AudioSettingsMenu/AudioSettingsMenu.yy",},
     {"name":"DisplaySettingsMenu","order":3,"path":"rooms/DisplaySettingsMenu/DisplaySettingsMenu.yy",},
     {"name":"Level1Boss","order":3,"path":"rooms/Level1Boss/Level1Boss.yy",},
+    {"name":"Level1Part1TEST","order":4,"path":"rooms/Level1Part1TEST/Level1Part1TEST.yy",},
     {"name":"Level1Part2","order":1,"path":"rooms/Level1Part2/Level1Part2.yy",},
     {"name":"Level1Part3","order":2,"path":"rooms/Level1Part3/Level1Part3.yy",},
     {"name":"rminit","order":1,"path":"rooms/rminit/rminit.yy",},
