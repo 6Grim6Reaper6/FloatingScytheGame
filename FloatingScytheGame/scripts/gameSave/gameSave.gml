@@ -1,3 +1,4 @@
+/*
 global.game_data = 
 {
 	room_data: {},
