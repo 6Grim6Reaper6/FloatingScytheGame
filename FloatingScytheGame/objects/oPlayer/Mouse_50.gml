@@ -8,6 +8,7 @@ if (onWall == 0)
 			{
 				audio_play_sound(aAttack1, 1, false, 1, 0, random_range(0.7, 1.3));
 				attack++;
+				stamina = clamp(stamina - attackStaminaCost, 0, stamina_max);
 				isAttacking = true;
 				attackFrame = 24 - (8 * attack);
 				//xspd += xDir * moveSpd[runType];

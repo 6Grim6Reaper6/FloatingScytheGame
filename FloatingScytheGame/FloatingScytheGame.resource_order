@@ -66,6 +66,7 @@
     {"name":"oPause","order":4,"path":"objects/oPause/oPause.yy",},
     {"name":"oPlayerScytheParts","order":7,"path":"objects/oPlayerScytheParts/oPlayerScytheParts.yy",},
     {"name":"oPressurePlate","order":1,"path":"objects/oPressurePlate/oPressurePlate.yy",},
+    {"name":"oRestartButton","order":6,"path":"objects/oRestartButton/oRestartButton.yy",},
     {"name":"oResume","order":5,"path":"objects/oResume/oResume.yy",},
     {"name":"oSave","order":1,"path":"objects/oSave/oSave.yy",},
     {"name":"oSettings","order":1,"path":"objects/oSettings/oSettings.yy",},

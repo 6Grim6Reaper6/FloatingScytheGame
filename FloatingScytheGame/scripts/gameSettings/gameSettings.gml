@@ -6,7 +6,6 @@ function gameInit()
 	global.lastRoom = MainMenu;
 	// since no saves gonna pretend player has played before
 	//global.firstTime = not file_exists("settings.txt");
-	global.firstTime = false;
 	global.settings = {
 			Music: 20,
 			Ambient: 20,

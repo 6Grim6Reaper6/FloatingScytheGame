@@ -5,7 +5,7 @@ function getHit(HitterX, HitterY)
 	throw_x = -1 * vector[0];
 	throw_y = -1.2 * vector[1];
 	
-	if (souls == 0 && death = false)
+	if (souls == 0 && death == false)
 	{
 		// implement game over
 		instance_create_depth(x, y, depth, oDeath);
@@ -31,13 +31,8 @@ function getHit(HitterX, HitterY)
 			{
 				audio_play_sound(choose(aThrow1, aThrow2, aThrow3), 1, false);
 				onGround = false;
-				var vector = getVector(mouse_x, mouse_y);
-				throw_x = vector[0];
-				throw_y = vector[1];
 				split = true;
-				jumpMax = 1;
-				throwTimer = 15;
-				
+				jumpMax = 1;				
 				instance_create_depth(x, y, depth, oBonepile);
 			}
 			hp = 80;
@@ -57,6 +52,12 @@ function getVector(targetX, targetY)
 controlsSetup();
 
 
+
+// variables for room restart
+lastSouls = 0;
+lastSplit = true;
+
+
 // Combat
 attackCharging = false;
 attackCharge = 0;
@@ -70,15 +71,17 @@ souls = 1;
 death = false;
 attackFrame = 0;
 attack = 0;
-stamina = 40;
-stamina_max = stamina;
-hp = 80;
-hp_max = hp;
+attackStaminaCost = 40;
+stamina_max = 200;
+stamina = stamina_max;
+hp_max = 80;
+hp = hp_max;
+
 
 staminabar_width = 50;
 staminabar_height = 6;
-staminabar_x = (oPlayer.x +50) - (staminabar_width/2);
-staminabar_y = (oPlayer.y +50)
+staminabar_x = (oPlayer.x + 50) - (staminabar_width / 2);
+staminabar_y = (oPlayer.y + 50)
 
 //Sprites
 maskSpr = sPlayerIdleScythe;

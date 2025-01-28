@@ -97,6 +97,7 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oPlayerScytheParts","path":"objects/oPlayerScytheParts/oPlayerScytheParts.yy",},},
     {"id":{"name":"oPressurePlate","path":"objects/oPressurePlate/oPressurePlate.yy",},},
+    {"id":{"name":"oRestartButton","path":"objects/oRestartButton/oRestartButton.yy",},},
     {"id":{"name":"oResume","path":"objects/oResume/oResume.yy",},},
     {"id":{"name":"oSave","path":"objects/oSave/oSave.yy",},},
     {"id":{"name":"oSettings","path":"objects/oSettings/oSettings.yy",},},

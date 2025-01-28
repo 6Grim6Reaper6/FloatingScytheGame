@@ -1,5 +1,5 @@
 //Exit if there is no player
-if !instance_exists(oPlayer) exit;
+if ( not instance_exists(oPlayer)) { exit; }
 
 //Get Camera size
 //var _camWidth = camera_get_view_width(view_camera[0]);

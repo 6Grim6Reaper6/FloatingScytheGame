@@ -21,12 +21,6 @@ if (attackFrame > 0)
 {
 	if (attackFrame == 1) { isAttacking = false; attack = 0;}
 	attackFrame--;
-	stamina--;
-}else{
-	if (stamina != 40)
-	{
-	stamina += .5;
-	}
 }
 
 
@@ -51,14 +45,6 @@ if (place_meeting(x, y - 8, oWall))
 	onWall = 0;
 	jumpHoldTimer = 0;
 	yspd = jspd[0];
-}
-
-if (onWall != 0 and wallBoost <= 0)
-{
-	yspd *= 0.5;
-	
-	if (split) { yspd = 0; }
-	jumpCount = 0;
 }
 
 if (onGround)
@@ -88,7 +74,7 @@ else
 	}
 }
 
-if (onWall != 0 and wallBoost <= 0)
+if (onWall != 0 and wallBoost <= 0 and not split)
 {
 	yspd *= 0.5;
 	if (split) { yspd = 0; }
@@ -105,5 +91,8 @@ audio_listener_position(x, y , 0);
 // Check if on ground
 onGround = (place_meeting(x, y + 2, oWall));
 
-if (stamina <= 0 and runType = true) {runType = false;};
+if (stamina != stamina_max and attack == 0 and (not runType or xspd == 0)) { stamina++; }
+
+
+if (stamina <= 0 and runType == true) {runType = false;};
 
