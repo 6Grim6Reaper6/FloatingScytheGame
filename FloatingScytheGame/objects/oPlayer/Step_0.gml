@@ -95,8 +95,10 @@ audio_listener_position(x, y , 0);
 // Check if on ground
 onGround = (place_meeting(x, y + 2, oWall));
 
-if (stamina != stamina_max and attack == 0 and (not runType or xspd == 0)) { stamina++; }
+//if (stamina != stamina_max and attack == 0 and (not runType or xspd == 0)) { stamina++; }
+if (stamina != stamina_max and attackFrame == 0) { stamina++; }
 
 
-if (stamina <= 0 and runType == true) {runType = false;};
+
+//if (stamina <= 0 and runType == true) {runType = false;};
 

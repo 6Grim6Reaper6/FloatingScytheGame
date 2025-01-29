@@ -4,6 +4,6 @@ if (attack < 2 and attackCharge == 0)
 	{
 		xspd += moveSpd[runType];
 		xDir = 1;
-		if (runType == true and not split){stamina--;};
+		//if (runType == true and not split){stamina--;};
 	}
 }

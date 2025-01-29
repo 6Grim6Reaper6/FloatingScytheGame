@@ -4,7 +4,7 @@ if (not global.buttonClicked)
 	{
 		if (not split)
 		{
-			if (stamina >= 0)
+			if (stamina >= attackStaminaCost)
 			{
 				if (attack == 0 or (attack == 1 and attackFrame == 1))
 				{
