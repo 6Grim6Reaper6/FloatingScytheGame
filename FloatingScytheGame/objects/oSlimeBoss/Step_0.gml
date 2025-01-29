@@ -54,7 +54,7 @@ if (hp > 0)
 else
 {
 	instance_destroy();
-	if (size > 0)
+	if (size > 1)
 	{
 		size--;
 		var _SlimeChild = instance_create_layer(x + 20, y - 5, "Instances", oSlimeBoss);
