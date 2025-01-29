@@ -20,10 +20,10 @@ if ((keyboard_check_pressed(vk_escape) or not waitFrame) and not asset_has_tags(
 		{
 			waitFrame = false;
 			// draw buttons
-			layer_create(depth - 1, "PauseMenu");
+			if (not layer_exists("PauseMenu")) { layer_create(depth - 1, "PauseMenu"); }
 		    instance_create_layer(oCamera.finalCamX + 240, oCamera.finalCamY + 100, "PauseMenu", oResume, {image_xscale: 3.5});
 			instance_create_layer(oCamera.finalCamX + 240, oCamera.finalCamY + 120, "PauseMenu", oRestartButton, {image_xscale: 3.5, text: "Restart"});
-			instance_create_layer(oCamera.finalCamX + 240, oCamera.finalCamY + 140, "PauseMenu", oSettings, {image_xscale: 3.5});
+			//instance_create_layer(oCamera.finalCamX + 240, oCamera.finalCamY + 140, "PauseMenu", oSettings, {image_xscale: 3.5});
 			instance_create_layer(oCamera.finalCamX + 240, oCamera.finalCamY + 160, "PauseMenu", oMainMenuButton, {image_xscale: 3.5});
 			instance_activate_layer("PauseMenu");
 		}

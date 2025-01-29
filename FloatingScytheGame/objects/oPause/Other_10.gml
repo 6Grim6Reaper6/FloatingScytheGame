@@ -1,6 +1,6 @@
 /// @desc Unpause
 pause = false;
-layer_destroy("PauseMenu");
-instance_activate_all();
-if (surface_exists(pauseSurf)) { surface_free(pauseSurf); }
-if (buffer_exists(pauseSurfBuffer)) { buffer_delete(pauseSurfBuffer); }
+if (layer_exists("PauseMenu")) { layer_destroy_instances("PauseMenu");	layer_destroy_instances("PauseMenu"); }
+if (layer_exists("Instances")) { instance_activate_layer("Instances"); }
+if (pauseSurf != -1 and surface_exists(pauseSurf)) { surface_free(pauseSurf); }
+if (pauseSurfBuffer != -1 and buffer_exists(pauseSurfBuffer)) { buffer_delete(pauseSurfBuffer); }

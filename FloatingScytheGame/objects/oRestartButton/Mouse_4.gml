@@ -36,5 +36,3 @@ with (oPlayer)
 	persistent = true;
 }
 
-
-
