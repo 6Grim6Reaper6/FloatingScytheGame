@@ -18,7 +18,7 @@ function gameInit()
 		};
 		
 	//window_enable_borderless_fullscreen(global.settings.borderless);
-	window_set_fullscreen(global.settings.fullscreen);
+	//window_set_fullscreen(global.settings.fullscreen);
 	window_set_size(global.settings.resW, global.settings.resH);
 	
 	audio_group_load(agMusic);
