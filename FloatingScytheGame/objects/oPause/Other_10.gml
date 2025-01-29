@@ -1,5 +1,6 @@
 /// @desc Unpause
 pause = false;
+// be sure to confirm kill, gotta double tap
 if (layer_exists("PauseMenu")) { layer_destroy_instances("PauseMenu");	layer_destroy_instances("PauseMenu"); }
 if (layer_exists("Instances")) { instance_activate_layer("Instances"); }
 if (pauseSurf != -1 and surface_exists(pauseSurf)) { surface_free(pauseSurf); }

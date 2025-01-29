@@ -121,7 +121,6 @@
     {"id":{"name":"AudioSettingsMenu","path":"rooms/AudioSettingsMenu/AudioSettingsMenu.yy",},},
     {"id":{"name":"DisplaySettingsMenu","path":"rooms/DisplaySettingsMenu/DisplaySettingsMenu.yy",},},
     {"id":{"name":"Level1Part1","path":"rooms/Level1Part1/Level1Part1.yy",},},
-    {"id":{"name":"Level1Part1TEST","path":"rooms/Level1Part1TEST/Level1Part1TEST.yy",},},
     {"id":{"name":"Level1Part2","path":"rooms/Level1Part2/Level1Part2.yy",},},
     {"id":{"name":"Level1Part3","path":"rooms/Level1Part3/Level1Part3.yy",},},
     {"id":{"name":"LevelBlankTemplate","path":"rooms/LevelBlankTemplate/LevelBlankTemplate.yy",},},
@@ -217,7 +216,6 @@
       ],"groupName":"Menus",},
     {"children":[
         {"roomId":{"name":"Level1Part1","path":"rooms/Level1Part1/Level1Part1.yy",},},
-        {"roomId":{"name":"Level1Part1TEST","path":"rooms/Level1Part1TEST/Level1Part1TEST.yy",},},
         {"roomId":{"name":"Level1Part2","path":"rooms/Level1Part2/Level1Part2.yy",},},
       ],"groupName":"Levels",},
     {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
