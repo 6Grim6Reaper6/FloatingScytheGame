@@ -64,7 +64,7 @@
   },
   "sequenceId":null,
   "tags":[
-    "Boss level",
+    "Normal level",
   ],
   "views":[
     {"hborder":32,"hport":1080,"hspeed":-1,"hview":270,"inherit":false,"objectId":null,"vborder":32,"visible":true,"vspeed":-1,"wport":1920,"wview":480,"xport":0,"xview":0,"yport":0,"yview":0,},

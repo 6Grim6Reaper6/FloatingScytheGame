@@ -1,4 +1,4 @@
-function getHit(HitterX, HitterY)
+function getHit(HitterX, HitterY, damage)
 {
 	if (iFrames > 0) { return; }
 	audio_play_sound(choose(aPlayerHit1, aPlayerHit2, aPlayerHit3, aPlayerHit4), 0, false);
@@ -22,9 +22,9 @@ function getHit(HitterX, HitterY)
 			souls--;
 		}
 		if (not split)
-			{
-				hp -= 40;
-			}
+		{
+			hp -= damage;
+		}
 		iFrames = 20;
 		if (hp == 0)
 		{
@@ -36,7 +36,7 @@ function getHit(HitterX, HitterY)
 				jumpMax = 1;				
 				instance_create_depth(x, y, depth, oBonepile);
 			}
-			hp = 80;
+			hp = hp_max;
 		}
 	}
 }
@@ -79,7 +79,7 @@ attack = 0;
 attackStaminaCost = 40;
 stamina_max = 200;
 stamina = stamina_max;
-hp_max = 80;
+hp_max = 100;
 hp = hp_max;
 
 

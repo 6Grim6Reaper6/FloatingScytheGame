@@ -4,5 +4,5 @@ if (other.isAttacking or hit)
 }
 else
 {
-	other.getHit(x, y);
+	other.getHit(x, y, 25);
 }

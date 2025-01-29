@@ -28,7 +28,7 @@
   ],
   "name":"sSlimeIdleBoss",
   "nineSlice":null,
-  "origin":7,
+  "origin":9,
   "parent":{
     "name":"SlimeBoss",
     "path":"folders/Sprites/Enemies/Boss's/SlimeBoss.yy",
@@ -93,7 +93,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":64,
-    "yorigin":128,
+    "yorigin":129,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

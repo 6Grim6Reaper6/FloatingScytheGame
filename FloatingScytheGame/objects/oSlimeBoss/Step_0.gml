@@ -1,7 +1,17 @@
 audio_emitter_position(emitter, x, y, 0);
 
-if (not hit)
+if (hp > 0)
 {
+	if iFrames > 0
+	{
+		image_alpha = ((iFrames % 10 ) * 0.1);
+		iFrames--;
+	}
+	else 
+	{
+		image_alpha = 1;
+	}
+	
 	// check distance to player, if too far then move randomly
 	aggro = distance_to_object(oPlayer) < 200;
 	if (aggro) { xDir = sign(oPlayer.x - x); }
@@ -30,12 +40,12 @@ if (not hit)
 	if (not onGround)
 	{ 
 		yspd += grav;
-		sprite_index = sSlimeJump;
+		sprite_index = sSlimeJumpBoss;
 	}
 	else
 	{ 
 		yspd = 0;
-		sprite_index = sSlimeIdle;
+		sprite_index = sSlimeIdleBoss;
 	}
 	move_and_collide(xspd * xDir, yspd, oWall, 4, 0, 8);
 	xspd = 0;
@@ -44,5 +54,13 @@ if (not hit)
 else
 {
 	instance_destroy();
+	if (size > 0)
+	{
+		size--;
+		var _SlimeChild = instance_create_layer(x + 20, y - 5, "Instances", oSlimeBoss);
+		_SlimeChild.DownSize(size);
+		_SlimeChild = instance_create_layer(x - 20, y - 5, "Instances", oSlimeBoss);
+		_SlimeChild.DownSize(size);
+	}
 }
 
