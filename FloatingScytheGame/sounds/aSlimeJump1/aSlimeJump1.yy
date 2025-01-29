@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"aSlimeJump",
+  "%Name":"aSlimeJump1",
   "audioGroupId":{
     "name":"agSFX",
     "path":"audiogroups/agSFX",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.6,
-  "name":"aSlimeJump",
+  "duration":0.216,
+  "name":"aSlimeJump1",
   "parent":{
     "name":"Enemy sounds",
     "path":"folders/Sounds/Enemy sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"aSlimeJump.mp3",
+  "soundFile":"aSlimeJump1.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.3,
 }

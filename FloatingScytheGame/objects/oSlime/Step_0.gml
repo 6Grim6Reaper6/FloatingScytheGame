@@ -12,7 +12,7 @@ if (not hit)
 		xspd = 4;
 		if (jumpStep == 0 and distance_to_object(oPlayer) < 400)
 		{ 
-			audio_play_sound_on(emitter, aSlimeJump, false, 0);
+			audio_play_sound_on(emitter, choose(aSlimeJump1, aSlimeJump2, aSlimeJump3), false, 0);
 			//audio_play_sound_at(aSlimeJump, x, y, 0, 400, 400, 1, false, 0, audio_group_get_gain(agSFX), 0, random_range(0.8, 1.2));
 		}
 		if ((jumpStep == 0 and onGround) or (jumpStep < (array_length(jumpSequance) * 2) and not onGround))
