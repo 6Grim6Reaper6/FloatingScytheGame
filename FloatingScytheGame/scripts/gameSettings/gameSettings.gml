@@ -7,11 +7,11 @@ function gameInit()
 	// since no saves gonna pretend player has played before
 	//global.firstTime = not file_exists("settings.txt");
 	global.settings = {
-			Music: 20,
-			Ambient: 20,
-			SFX: 20,
-			fullscreen: false,
-			borderless: true,
+			Music: 50,
+			Ambient: 50,
+			SFX: 50,
+			//fullscreen: false,
+			//borderless: true,
 			toggleSprint: true,
 			resW: 1920,
 			resH: 1080,
