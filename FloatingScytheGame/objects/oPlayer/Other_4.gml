@@ -1,8 +1,8 @@
 instance_create_depth(x, y, depth, oWarpStart);
 
-lastHP = hp;
-lastStamina = stamina;
-lastSouls = souls;
-lastSplit = split;
-lastX = x;
-lastY = y;
+global.lastPlayer._hp = hp;
+global.lastPlayer._stamina = stamina;
+global.lastPlayer._souls = souls;
+global.lastPlayer._split = split;
+global.lastPlayer._x = x;
+global.lastPlayer._y = y;

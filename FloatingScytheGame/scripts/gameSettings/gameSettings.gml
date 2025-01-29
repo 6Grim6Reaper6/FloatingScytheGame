@@ -5,6 +5,14 @@ function gameInit()
 	global.paused = false;
 	global.firstTime = false;
 	global.lastRoom = MainMenu;
+	global.lastPlayer = {
+		_x: 0,
+		_y: 0,
+		_souls: 0,
+		_split: false,
+		_hp: 0,
+		_stamina: 0
+	};
 	// since no saves gonna pretend player has played before
 	//global.firstTime = not file_exists("settings.txt");
 	global.settings = {
