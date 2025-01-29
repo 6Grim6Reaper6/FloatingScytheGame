@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":123.03672,
+  "duration":123.036736,
   "name":"aMenuMusic",
   "parent":{
     "name":"Music",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"aMenuMusic.mp3",
+  "soundFile":"aMenuMusic.wav",
   "type":0,
-  "volume":0.2,
+  "volume":1.0,
 }
