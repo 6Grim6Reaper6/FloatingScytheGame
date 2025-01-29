@@ -105,6 +105,8 @@
     {"name":"aSlimeJump2","order":2,"path":"sounds/aSlimeJump2/aSlimeJump2.yy",},
     {"name":"aSlimeJump3","order":3,"path":"sounds/aSlimeJump3/aSlimeJump3.yy",},
     {"name":"aSoulCollect","order":1,"path":"sounds/aSoulCollect/aSoulCollect.yy",},
+    {"name":"aSpin1","order":7,"path":"sounds/aSpin1/aSpin1.yy",},
+    {"name":"aSpin2","order":8,"path":"sounds/aSpin2/aSpin2.yy",},
     {"name":"aThrow2","order":1,"path":"sounds/aThrow2/aThrow2.yy",},
     {"name":"aThrow3","order":2,"path":"sounds/aThrow3/aThrow3.yy",},
     {"name":"sDoor","order":1,"path":"sprites/sDoor/sDoor.yy",},

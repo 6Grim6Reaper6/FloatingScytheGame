@@ -1,5 +1,6 @@
 function gameInit()
 {
+	global.buttonClicked = false;
 	global.loadingRoom = false;
 	global.paused = false;
 	global.firstTime = false;

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"aSpin2",
+  "audioGroupId":{
+    "name":"agSFX",
+    "path":"audiogroups/agSFX",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.990063,
+  "name":"aSpin2",
+  "parent":{
+    "name":"Player sounds",
+    "path":"folders/Sounds/Player sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"aSpin2.wav",
+  "type":0,
+  "volume":1.0,
+}

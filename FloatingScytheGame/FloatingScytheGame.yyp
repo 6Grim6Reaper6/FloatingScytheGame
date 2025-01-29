@@ -147,6 +147,8 @@
     {"id":{"name":"aSlimeJump2","path":"sounds/aSlimeJump2/aSlimeJump2.yy",},},
     {"id":{"name":"aSlimeJump3","path":"sounds/aSlimeJump3/aSlimeJump3.yy",},},
     {"id":{"name":"aSoulCollect","path":"sounds/aSoulCollect/aSoulCollect.yy",},},
+    {"id":{"name":"aSpin1","path":"sounds/aSpin1/aSpin1.yy",},},
+    {"id":{"name":"aSpin2","path":"sounds/aSpin2/aSpin2.yy",},},
     {"id":{"name":"aThrow1","path":"sounds/aThrow1/aThrow1.yy",},},
     {"id":{"name":"aThrow2","path":"sounds/aThrow2/aThrow2.yy",},},
     {"id":{"name":"aThrow3","path":"sounds/aThrow3/aThrow3.yy",},},

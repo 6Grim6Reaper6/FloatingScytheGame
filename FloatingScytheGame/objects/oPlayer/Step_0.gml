@@ -12,8 +12,12 @@ if (iFrames > 0)// Tick down iFrames
 if (attackCharge > 0 and not attackCharging)
 {
 	xspd = xDir * 15;
-	
-	if (attackCharge == 1) { isAttacking = false;}
+	if (attackCharge == 1) 
+	{ 
+		if (audio_is_playing(aSpin1)) { audio_stop_sound(aSpin1); }
+		if (audio_is_playing(aSpin2)) { audio_stop_sound(aSpin2); }
+		isAttacking = false;
+	}
 	attackCharge--;
 }
 
