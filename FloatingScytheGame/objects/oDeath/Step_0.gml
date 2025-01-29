@@ -12,10 +12,14 @@ if image_index = 6{
 	}
 	
 	instance_create_layer(oCamera.finalCamX + 240, oCamera.finalCamY + 100, "Instances", oGameOverText);
-	var _button = instance_create_depth(oCamera.finalCamX + 240, oCamera.finalCamY + 130, oDeath.depth - 1, oNewGameButton);
+	var _button = instance_create_depth(oCamera.finalCamX + 240, oCamera.finalCamY + 130, oDeath.depth - 1, oRestartButton);
+	_button.image_xscale = 3.5;
+	_button.text = "Try again";
+	
+	_button = instance_create_depth(oCamera.finalCamX + 240, oCamera.finalCamY + 150, oDeath.depth - 1, oNewGameButton);
 	_button.image_xscale = 3.5;
 	_button.text = "Start Over";
-	
-	_button = instance_create_depth(oCamera.finalCamX + 240, oCamera.finalCamY +150, oDeath.depth - 1, oMainMenuButton);
+
+	_button = instance_create_depth(oCamera.finalCamX + 240, oCamera.finalCamY + 170, oDeath.depth - 1, oMainMenuButton);
 	_button.image_xscale = 3.5;
 }

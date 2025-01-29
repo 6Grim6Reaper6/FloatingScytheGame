@@ -7,6 +7,7 @@ if place_meeting(x,y, oPlayer) && !instance_exists(oWarp)
 	 _inst.target_face = target_face;
 	 _inst.target_scythe = target_scythe;
 	}
+	
 if instance_exists(oPlayer)
 {
 	with oPlayer

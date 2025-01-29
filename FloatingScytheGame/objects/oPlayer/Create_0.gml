@@ -56,6 +56,10 @@ controlsSetup();
 // variables for room restart
 lastSouls = 0;
 lastSplit = true;
+lastX = x;
+lastY = y;
+lastHP = 0;
+lastStamina = 0;
 
 
 // Combat
