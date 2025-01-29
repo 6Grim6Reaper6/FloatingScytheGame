@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"aButtonSound",
+  "%Name":"aPlayerHit3",
   "audioGroupId":{
     "name":"agSFX",
     "path":"audiogroups/agSFX",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.384,
-  "name":"aButtonSound",
+  "duration":0.75,
+  "name":"aPlayerHit3",
   "parent":{
-    "name":"Objects",
-    "path":"folders/Sounds/Objects.yy",
+    "name":"Player sounds",
+    "path":"folders/Sounds/Player sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"aButtonSound.mp3",
+  "soundFile":"aPlayerHit3.wav",
   "type":0,
-  "volume":1.0,
+  "volume":0.5,
 }

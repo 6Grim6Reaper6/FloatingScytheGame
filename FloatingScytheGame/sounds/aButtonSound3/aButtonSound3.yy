@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"aButtonSound3",
+  "audioGroupId":{
+    "name":"agSFX",
+    "path":"audiogroups/agSFX",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.36,
+  "name":"aButtonSound3",
+  "parent":{
+    "name":"Objects",
+    "path":"folders/Sounds/Objects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"aButtonSound3.mp3",
+  "type":0,
+  "volume":0.5,
+}

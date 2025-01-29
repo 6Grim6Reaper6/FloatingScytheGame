@@ -1,6 +1,7 @@
 function getHit(HitterX, HitterY)
 {
 	if (iFrames > 0) { return; }
+	audio_play_sound(choose(aPlayerHit1, aPlayerHit2, aPlayerHit3, aPlayerHit4), 0, false);
 	var vector = getVector(HitterX, HitterY);
 	throw_x = -1 * vector[0];
 	throw_y = -1.2 * vector[1];
