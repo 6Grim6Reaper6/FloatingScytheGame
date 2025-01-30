@@ -144,6 +144,7 @@
     {"id":{"name":"aButtonSound3","path":"sounds/aButtonSound3/aButtonSound3.yy",},},
     {"id":{"name":"aDeathSound","path":"sounds/aDeathSound/aDeathSound.yy",},},
     {"id":{"name":"aDoor","path":"sounds/aDoor/aDoor.yy",},},
+    {"id":{"name":"aLava","path":"sounds/aLava/aLava.yy",},},
     {"id":{"name":"aMenuMusic","path":"sounds/aMenuMusic/aMenuMusic.yy",},},
     {"id":{"name":"aNormalLevelMusic","path":"sounds/aNormalLevelMusic/aNormalLevelMusic.yy",},},
     {"id":{"name":"aPlayerHit1","path":"sounds/aPlayerHit1/aPlayerHit1.yy",},},

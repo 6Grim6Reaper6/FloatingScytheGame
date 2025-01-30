@@ -100,6 +100,7 @@
     {"name":"aButtonSound3","order":6,"path":"sounds/aButtonSound3/aButtonSound3.yy",},
     {"name":"aDeathSound","order":3,"path":"sounds/aDeathSound/aDeathSound.yy",},
     {"name":"aDoor","order":2,"path":"sounds/aDoor/aDoor.yy",},
+    {"name":"aLava","order":5,"path":"sounds/aLava/aLava.yy",},
     {"name":"aMenuMusic","order":1,"path":"sounds/aMenuMusic/aMenuMusic.yy",},
     {"name":"aNormalLevelMusic","order":2,"path":"sounds/aNormalLevelMusic/aNormalLevelMusic.yy",},
     {"name":"aPlayerHit1","order":9,"path":"sounds/aPlayerHit1/aPlayerHit1.yy",},

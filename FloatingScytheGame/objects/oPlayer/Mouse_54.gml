@@ -25,7 +25,7 @@ if (not global.buttonClicked)
 			jumpMax = 1;
 			throwTimer = 15; 
 	
-			instance_create_depth(x, y, depth, oBonepile);
+			instance_create_layer(x, y, "Instances", oBonepile);
 			stamina = stamina_max;
 		}
 	}

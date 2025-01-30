@@ -2,8 +2,8 @@ with (oPlayer)
 {
 	switch (souls)
 	{
-		case (108):
-			other.text = "You have collected all 108 souls!";
+		case (117):
+			other.text = "You have collected all 117 souls!";
 			break;
 		case (1):
 			other.text = "You have only collected 1 soul? that's a talent!";

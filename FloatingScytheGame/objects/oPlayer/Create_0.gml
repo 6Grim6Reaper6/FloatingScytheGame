@@ -20,7 +20,7 @@ function getHit(HitterX, HitterY, damage)
 			var soul;
 			repeat (souls)
 			{
-				soul = instance_create_depth(x, y, depth, oSouls);
+				soul = instance_create_layer(x, y, "Instances", oSouls);
 				soul.fading = soul.fadeTimer;
 				souls--;
 			}
