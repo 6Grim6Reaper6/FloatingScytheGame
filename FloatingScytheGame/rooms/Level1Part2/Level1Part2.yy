@@ -322,13 +322,7 @@
         {"$GMRInstance":"v1","%Name":"inst_3BE70E03","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3BE70E03","objectId":{"name":"oSlime","path":"objects/oSlime/oSlime.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1072.0,"y":480.0,},
         {"$GMRInstance":"v1","%Name":"inst_567B5D20","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_567B5D20","objectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":11.0,"x":96.0,"y":176.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-<<<<<<< Updated upstream
     {"$GMRAssetLayer":"","%Name":"LavaEffect","assets":[],"depth":300,"effectEnabled":true,"effectType":"_filter_underwater","gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"LavaEffect","properties":[
-=======
-    {"$GMRAssetLayer":"","%Name":"LavaEffect","assets":[
-        {"$GMRSpriteGraphic":"","%Name":"graphic_1E1C3378","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_1E1C3378","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":9.999998,"scaleY":0.6666667,"spriteId":{"name":"sLava","path":"sprites/sLava/sLava.yy",},"x":224.0,"y":432.0,},
-      ],"depth":300,"effectEnabled":true,"effectType":"_filter_underwater","gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"LavaEffect","properties":[
->>>>>>> Stashed changes
         {"name":"g_Distort1Speed","type":0,"value":"0.006",},
         {"name":"g_Distort2Speed","type":0,"value":"0.007",},
         {"name":"g_Distort1Scale","type":0,"value":"20",},

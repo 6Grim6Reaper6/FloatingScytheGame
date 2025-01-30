@@ -7,7 +7,7 @@ function DownSize(newSize)
 	image_yscale *= size / maxSize;
 }
 
-
+color = #FFFFFF;
 maxSize = 4;
 size = maxSize;
 maxHP = size;

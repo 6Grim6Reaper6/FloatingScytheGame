@@ -1,6 +1,11 @@
 
 //Get Inputs
-getControls();
+//getControls();
+if (isAttacking)
+{
+	isAttacking = isAttacking;
+}
+
 if (iFrames > 0)// Tick down iFrames
 { 
 	xspd = throw_x * 5;
