@@ -1,16 +1,16 @@
 {
   "$GMSound":"",
-  "%Name":"VictoryMusic",
+  "%Name":"aVictoryMusic",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"agMusic",
+    "path":"audiogroups/agMusic",
   },
   "bitDepth":1,
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
-  "name":"VictoryMusic",
+  "duration":4.488,
+  "name":"aVictoryMusic",
   "parent":{
     "name":"Music",
     "path":"folders/Sounds/Music.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"VictoryMusic",
+  "soundFile":"aVictoryMusic.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.3,
 }

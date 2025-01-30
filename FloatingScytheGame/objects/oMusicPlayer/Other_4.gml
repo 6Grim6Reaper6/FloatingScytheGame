@@ -12,12 +12,15 @@ function PlayMusic()
 		case "Boss level":
 			currSong = aBossMusic;
 			break;
+		case "Victory room":
+			currSong = aVictoryMusic;
+			break;
 	}
 	audio_play_sound(currSong, 0, true);
 }
 if (loaded)
 {
-	if (LastRoomTag == -1 and asset_has_any_tag(room, ["Menu", "Normal level", "Boss level"], asset_room))
+	if (LastRoomTag == -1 and asset_has_any_tag(room, ["Menu", "Normal level", "Boss level", "Victory room"], asset_room))
 	{
 		LastRoomTag = asset_get_tags(room, asset_room)[0];
 		PlayMusic();

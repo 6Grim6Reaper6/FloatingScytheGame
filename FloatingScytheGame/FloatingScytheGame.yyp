@@ -171,7 +171,7 @@
     {"id":{"name":"aThrow1","path":"sounds/aThrow1/aThrow1.yy",},},
     {"id":{"name":"aThrow2","path":"sounds/aThrow2/aThrow2.yy",},},
     {"id":{"name":"aThrow3","path":"sounds/aThrow3/aThrow3.yy",},},
-    {"id":{"name":"VictoryMusic","path":"sounds/VictoryMusic/VictoryMusic.yy",},},
+    {"id":{"name":"aVictoryMusic","path":"sounds/aVictoryMusic/aVictoryMusic.yy",},},
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},},
     {"id":{"name":"sEnemySwordDeath","path":"sprites/sEnemySwordDeath/sEnemySwordDeath.yy",},},
     {"id":{"name":"sFog","path":"sprites/sFog/sFog.yy",},},
