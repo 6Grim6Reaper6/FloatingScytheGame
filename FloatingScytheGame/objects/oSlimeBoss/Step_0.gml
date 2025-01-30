@@ -41,8 +41,15 @@ if (hp > 0)
 	else 
 	{
 		if (attackCD > 0 and attackFrame > 0) { attackCD--; }
-		move_and_collide(xspd * xDir, yspd, oWall, 4, 0, 8);
-		xspd = 0;
+		if (iFrames < 10)
+		{
+			move_and_collide(xspd * xDir, yspd, oWall, 4, 0, 8);
+			xspd = 0;
+		}
+		else
+		{
+			move_and_collide(knockbackX * -5, knockbackY * -5, oWall, 4, 0, 8);
+		}
 	}
 		
 	// if close to player do attack thing
