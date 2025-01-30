@@ -20,13 +20,19 @@ if (not global.buttonClicked)
 		else
 		{
 			attackCharging = true;
+			isAttacking = true;
 			if (not audio_is_playing(aSpin1) and not audio_is_playing(aSpin2))
 			{
 				audio_play_sound(choose(aSpin1, aSpin2), 0, false);
 			}
+			
 			if (attackCharge < 30)
 			{
 				attackCharge++;
+			}
+			else
+			{
+				mouse_clear(mb_left);
 			}
 		}
 	}

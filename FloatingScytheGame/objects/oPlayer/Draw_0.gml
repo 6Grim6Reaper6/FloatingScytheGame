@@ -21,7 +21,7 @@ else
 //Sprite Control
 //Walking
 face = xDir;
-if (attackFrame == 0 and attackCharge == 0)
+if (attackFrame == 0 and attackCharge == 0 and throwTimer == 0)
 {
 	if (abs(xspd) > 0) {sprite_index = walkSpr;};
 	//Running

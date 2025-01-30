@@ -14,18 +14,21 @@ function getHit(HitterX, HitterY, damage)
 	}
 	else
 	{
-		var soul;
-		repeat (souls)
+		iFrames = 20;
+		if (split)
 		{
-			soul = instance_create_depth(x, y, depth, oSouls);
-			soul.fading = soul.fadeTimer;
-			souls--;
+			var soul;
+			repeat (souls)
+			{
+				soul = instance_create_depth(x, y, depth, oSouls);
+				soul.fading = soul.fadeTimer;
+				souls--;
+			}
 		}
-		if (not split)
+		else
 		{
 			hp -= damage;
 		}
-		iFrames = 20;
 		if (hp == 0)
 		{
 			if (not split)
@@ -102,7 +105,7 @@ face = 1;
 xDir = 1;
 yDir = 1;
 onWall = 0;
-runType = false;
+runType = true;
 moveSpd[0] = 3; // Mormal speed
 moveSpd[1] = 4.5; // Sprint speed
 xspd = 0;
