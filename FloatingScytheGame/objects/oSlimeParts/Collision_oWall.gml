@@ -1,4 +1,3 @@
-
 if vspeed > 1
 {
 	vspeed = 0;
