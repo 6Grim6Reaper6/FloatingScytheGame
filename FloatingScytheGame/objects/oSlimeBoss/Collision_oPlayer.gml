@@ -7,9 +7,7 @@ if (iFrames == 0)
 	else
 	{
 		hp--;
-		iFrames = 20;
-		audio_play_sound_on(emitter, aDoor, false, 0);
-		
+		iFrames = 20;	
 	}
 }
 

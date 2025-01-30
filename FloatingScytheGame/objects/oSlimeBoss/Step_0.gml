@@ -12,7 +12,7 @@ if (hp > 0)
 		xspd = 4;
 		if (jumpStep == 0 and distance_to_object(oPlayer) < 400)
 		{ 
-			audio_play_sound_on(emitter, choose(aSlimeJump1, aSlimeJump2, aSlimeJump3), false, 0);
+			audio_play_sound_on(emitter, choose(aSlimeBossJump1, aSlimeBossJump2), false, 0, 1, 0, pitch);
 		}
 		if ((jumpStep == 0 and onGround) or (jumpStep < (array_length(jumpSequance) * 2) and not onGround))
 		{
@@ -51,13 +51,14 @@ if (hp > 0)
 		isAttacking = true;
 		attackFrame = 20;
 		attackCD = 20;
-		audio_play_sound_on(emitter, choose(aSlimeJump1, aSlimeJump2, aSlimeJump3), false, 0);
+		audio_play_sound_on(emitter, choose(aSlimeBossAttack1, aSlimeBossAttack2), false, 0, 1, 0, pitch);
 	}
 	onGround = (place_meeting(x, y + 4, oWall));	
 }
 else
 {
 	instance_destroy();
+	audio_play_sound_on(emitter, aSlimeBossDeath, false, 0, 1, 0, pitch);
 	if (size > 1)
 	{
 		size--;

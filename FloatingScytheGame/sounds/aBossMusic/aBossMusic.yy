@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"aBossMusic",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"agMusic",
+    "path":"audiogroups/agMusic",
   },
   "bitDepth":1,
   "bitRate":128,

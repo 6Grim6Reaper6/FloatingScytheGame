@@ -3,10 +3,12 @@ function DownSize(newSize)
 	size = newSize;
 	maxHP = size;
 	hp = maxHP;
+	pitch = 2 - size / maxSize;
 	image_xscale *= size / maxSize;
 	image_yscale *= size / maxSize;
 }
 
+pitch = 1;
 color = #FFFFFF;
 maxSize = 4;
 size = maxSize;
