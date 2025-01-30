@@ -1,5 +1,5 @@
 target_x = 8;
-target_y = 416;
-target_rm = Level1Part3;
+target_y = 206;
+target_rm = LevelVictory;
 
 target_face = 1;

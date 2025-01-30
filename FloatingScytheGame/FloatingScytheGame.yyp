@@ -171,6 +171,7 @@
     {"id":{"name":"sLava","path":"sprites/sLava/sLava.yy",},},
     {"id":{"name":"sMenuBackground","path":"sprites/sMenuBackground/sMenuBackground.yy",},},
     {"id":{"name":"sNotADoor","path":"sprites/sNotADoor/sNotADoor.yy",},},
+    {"id":{"name":"sPeoplewhoMadeTheGame","path":"sprites/sPeoplewhoMadeTheGame/sPeoplewhoMadeTheGame.yy",},},
     {"id":{"name":"sPlayerAttackOne","path":"sprites/sPlayerAttackOne/sPlayerAttackOne.yy",},},
     {"id":{"name":"sPlayerAttackTwo","path":"sprites/sPlayerAttackTwo/sPlayerAttackTwo.yy",},},
     {"id":{"name":"sPlayerBonepile","path":"sprites/sPlayerBonepile/sPlayerBonepile.yy",},},
