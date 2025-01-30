@@ -29,7 +29,7 @@ function getHit(HitterX, HitterY, damage)
 		{
 			hp -= damage;
 		}
-		if (hp == 0)
+		if (hp == 0 or hp < 0)
 		{
 			if (not split)
 			{
