@@ -94,7 +94,6 @@
     {"name":"inst_2D4450D2","path":"rooms/Level1Boss/Level1Boss.yy",},
     {"name":"inst_2C14F83E","path":"rooms/Level1Boss/Level1Boss.yy",},
     {"name":"inst_3E38C78C","path":"rooms/Level1Boss/Level1Boss.yy",},
-    {"name":"inst_595B7816","path":"rooms/Level1Boss/Level1Boss.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -197,7 +196,6 @@
         {"$GMRInstance":"v1","%Name":"inst_2D4450D2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D4450D2","objectId":{"name":"oBonepile","path":"objects/oBonepile/oBonepile.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1968.0,"y":216.0,},
         {"$GMRInstance":"v1","%Name":"inst_2C14F83E","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C14F83E","objectId":{"name":"oWarpBlock","path":"objects/oWarpBlock/oWarpBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":1.5,"x":2032.0,"y":288.0,},
         {"$GMRInstance":"v1","%Name":"inst_3E38C78C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E38C78C","objectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":1.0,"x":128.0,"y":32.0,},
-        {"$GMRInstance":"v1","%Name":"inst_595B7816","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_595B7816","objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":80.0,"y":144.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"LavaEffect","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_7CAE008C","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":{"name":"graphic_7CAE008C","path":"rooms/LevelBlankTemplate/LevelBlankTemplate.yy",},"inheritItemSettings":false,"name":"graphic_7CAE008C","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":20.666668,"scaleY":1.0,"spriteId":{"name":"sLava","path":"sprites/sLava/sLava.yy",},"x":784.0,"y":384.0,},
