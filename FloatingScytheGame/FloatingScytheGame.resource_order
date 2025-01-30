@@ -124,6 +124,7 @@
     {"name":"aSpin2","order":8,"path":"sounds/aSpin2/aSpin2.yy",},
     {"name":"aThrow2","order":1,"path":"sounds/aThrow2/aThrow2.yy",},
     {"name":"aThrow3","order":2,"path":"sounds/aThrow3/aThrow3.yy",},
+    {"name":"VictoryMusic","order":4,"path":"sounds/VictoryMusic/VictoryMusic.yy",},
     {"name":"sDoor","order":1,"path":"sprites/sDoor/sDoor.yy",},
     {"name":"sEnemySwordDeath","order":4,"path":"sprites/sEnemySwordDeath/sEnemySwordDeath.yy",},
     {"name":"sFog","order":3,"path":"sprites/sFog/sFog.yy",},
