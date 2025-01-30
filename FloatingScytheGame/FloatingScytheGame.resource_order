@@ -88,6 +88,7 @@
     {"name":"Level1Part2","order":1,"path":"rooms/Level1Part2/Level1Part2.yy",},
     {"name":"Level1Part3","order":2,"path":"rooms/Level1Part3/Level1Part3.yy",},
     {"name":"LevelBlankTemplate","order":3,"path":"rooms/LevelBlankTemplate/LevelBlankTemplate.yy",},
+    {"name":"LevelVictory","order":6,"path":"rooms/LevelVictory/LevelVictory.yy",},
     {"name":"rminit","order":1,"path":"rooms/rminit/rminit.yy",},
     {"name":"SettingsMenu","order":1,"path":"rooms/SettingsMenu/SettingsMenu.yy",},
     {"name":"gameSave","order":1,"path":"scripts/gameSave/gameSave.yy",},

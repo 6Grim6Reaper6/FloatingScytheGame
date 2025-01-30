@@ -128,6 +128,7 @@
     {"id":{"name":"Level1Part2","path":"rooms/Level1Part2/Level1Part2.yy",},},
     {"id":{"name":"Level1Part3","path":"rooms/Level1Part3/Level1Part3.yy",},},
     {"id":{"name":"LevelBlankTemplate","path":"rooms/LevelBlankTemplate/LevelBlankTemplate.yy",},},
+    {"id":{"name":"LevelVictory","path":"rooms/LevelVictory/LevelVictory.yy",},},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"id":{"name":"rminit","path":"rooms/rminit/rminit.yy",},},
     {"id":{"name":"SettingsMenu","path":"rooms/SettingsMenu/SettingsMenu.yy",},},
@@ -236,6 +237,7 @@
     {"roomId":{"name":"Level1Part3","path":"rooms/Level1Part3/Level1Part3.yy",},},
     {"roomId":{"name":"LevelBlankTemplate","path":"rooms/LevelBlankTemplate/LevelBlankTemplate.yy",},},
     {"roomId":{"name":"Level1Boss","path":"rooms/Level1Boss/Level1Boss.yy",},},
+    {"roomId":{"name":"LevelVictory","path":"rooms/LevelVictory/LevelVictory.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
