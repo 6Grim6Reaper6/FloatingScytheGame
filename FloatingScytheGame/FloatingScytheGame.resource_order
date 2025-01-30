@@ -71,6 +71,7 @@
     {"name":"oSave","order":1,"path":"objects/oSave/oSave.yy",},
     {"name":"oSettings","order":1,"path":"objects/oSettings/oSettings.yy",},
     {"name":"oSFXVolume","order":1,"path":"objects/oSFXVolume/oSFXVolume.yy",},
+    {"name":"oSlimeBossParts","order":1,"path":"objects/oSlimeBossParts/oSlimeBossParts.yy",},
     {"name":"oSlimeParts","order":1,"path":"objects/oSlimeParts/oSlimeParts.yy",},
     {"name":"oSlope1","order":1,"path":"objects/oSlope1/oSlope1.yy",},
     {"name":"oSlope2","order":2,"path":"objects/oSlope2/oSlope2.yy",},

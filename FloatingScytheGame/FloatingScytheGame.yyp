@@ -106,6 +106,7 @@
     {"id":{"name":"oSFXVolume","path":"objects/oSFXVolume/oSFXVolume.yy",},},
     {"id":{"name":"oSlime","path":"objects/oSlime/oSlime.yy",},},
     {"id":{"name":"oSlimeBoss","path":"objects/oSlimeBoss/oSlimeBoss.yy",},},
+    {"id":{"name":"oSlimeBossParts","path":"objects/oSlimeBossParts/oSlimeBossParts.yy",},},
     {"id":{"name":"oSlimeParts","path":"objects/oSlimeParts/oSlimeParts.yy",},},
     {"id":{"name":"oSlope","path":"objects/oSlope/oSlope.yy",},},
     {"id":{"name":"oSlope1","path":"objects/oSlope1/oSlope1.yy",},},

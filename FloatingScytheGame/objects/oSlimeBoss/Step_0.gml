@@ -14,6 +14,7 @@ if (hp > 0)
 	
 	// check distance to player, if too far then move randomly
 	aggro = distance_to_object(oPlayer) < 200;
+
 	if (aggro) { xDir = sign(oPlayer.x - x); }
 	else { xDir = choose(-1, 1); }
 	if (idle > 0) { idle--; }
@@ -47,9 +48,17 @@ if (hp > 0)
 		yspd = 0;
 		sprite_index = sSlimeIdleBoss;
 	}
+	
+	attacking = distance_to_object(oPlayer) < 20;
+	if (attacking) { sprite_index = sSlimeAttackBoss; audio_play_sound_on(emitter, choose(aSlimeJump1, aSlimeJump2, aSlimeJump3), false, 0);}
+	else{
 	move_and_collide(xspd * xDir, yspd, oWall, 4, 0, 8);
+	}
 	xspd = 0;
 	onGround = (place_meeting(x, y + 4, oWall));
+	
+	
+	
 }
 else
 {

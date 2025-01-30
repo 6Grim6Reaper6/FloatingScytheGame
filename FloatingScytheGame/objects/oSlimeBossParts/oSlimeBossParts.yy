@@ -1,14 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oSlimeBoss",
+  "%Name":"oSlimeBossParts",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oSlimeBoss",
+  "name":"oSlimeBossParts",
   "overriddenProperties":[],
   "parent":{
     "name":"Bosses",
@@ -33,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSlimeIdleBoss",
-    "path":"sprites/sSlimeIdleBoss/sSlimeIdleBoss.yy",
+    "name":"sSlimeDeathBossUpdated",
+    "path":"sprites/sSlimeDeathBossUpdated/sSlimeDeathBossUpdated.yy",
   },
   "spriteMaskId":null,
   "visible":true,

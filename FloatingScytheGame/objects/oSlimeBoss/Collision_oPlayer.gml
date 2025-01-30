@@ -9,6 +9,7 @@ if (iFrames == 0)
 		hp--;
 		iFrames = 20;
 		audio_play_sound_on(emitter, aDoor, false, 0);
+		
 	}
 }
 
