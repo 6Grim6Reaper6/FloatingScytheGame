@@ -15,6 +15,8 @@ hp = maxHP;
 
 isAttacking = false;
 iFrames = 20;
+attackFrame = 0;
+attackCD = 0;
 
 xDir = 1;
 xspd = 0;

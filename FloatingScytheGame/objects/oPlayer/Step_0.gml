@@ -27,7 +27,6 @@ if (attackFrame > 0)
 	attackFrame--;
 }
 
-
 // Handle throwing
 if (throwTimer > 0)
 { 
