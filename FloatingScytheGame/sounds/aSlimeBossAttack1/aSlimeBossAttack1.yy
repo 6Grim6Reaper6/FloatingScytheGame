@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"aSlimeBossAttack1.mp3",
   "type":0,
-  "volume":0.5,
+  "volume":0.3,
 }
