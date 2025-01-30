@@ -53,7 +53,7 @@ function getVector(targetX, targetY)
 }
 
 //control setup
-//controlsSetup();
+controlsSetup();
 
 
 
