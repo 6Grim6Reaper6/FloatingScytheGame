@@ -132,7 +132,7 @@
     {"name":"sLava","order":15,"path":"sprites/sLava/sLava.yy",},
     {"name":"sMenuBackground","order":2,"path":"sprites/sMenuBackground/sMenuBackground.yy",},
     {"name":"sNotADoor","order":2,"path":"sprites/sNotADoor/sNotADoor.yy",},
-    {"name":"sPeoplewhoMadeTheGame","order":6,"path":"sprites/sPeoplewhoMadeTheGame/sPeoplewhoMadeTheGame.yy",},
+    {"name":"sPeoplewhoMadeTheGame","order":16,"path":"sprites/sPeoplewhoMadeTheGame/sPeoplewhoMadeTheGame.yy",},
     {"name":"sPlayerAttackTwo","order":1,"path":"sprites/sPlayerAttackTwo/sPlayerAttackTwo.yy",},
     {"name":"sPlayerIdle","order":1,"path":"sprites/sPlayerIdle/sPlayerIdle.yy",},
     {"name":"sPlayerIdleScytheDeath","order":7,"path":"sprites/sPlayerIdleScytheDeath/sPlayerIdleScytheDeath.yy",},
