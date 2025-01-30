@@ -117,6 +117,7 @@
     {"id":{"name":"oTestArea","path":"objects/oTestArea/oTestArea.yy",},},
     {"id":{"name":"oText","path":"objects/oText/oText.yy",},},
     {"id":{"name":"oTextbox","path":"objects/oTextbox/oTextbox.yy",},},
+    {"id":{"name":"oVictorySouls","path":"objects/oVictorySouls/oVictorySouls.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"oWarp","path":"objects/oWarp/oWarp.yy",},},
     {"id":{"name":"oWarpBlock","path":"objects/oWarpBlock/oWarpBlock.yy",},},

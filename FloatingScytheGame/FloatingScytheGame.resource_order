@@ -78,6 +78,7 @@
     {"name":"oSlope3","order":3,"path":"objects/oSlope3/oSlope3.yy",},
     {"name":"oSpikes","order":1,"path":"objects/oSpikes/oSpikes.yy",},
     {"name":"oTestArea","order":7,"path":"objects/oTestArea/oTestArea.yy",},
+    {"name":"oVictorySouls","order":8,"path":"objects/oVictorySouls/oVictorySouls.yy",},
     {"name":"oWall","order":4,"path":"objects/oWall/oWall.yy",},
     {"name":"oWarp","order":2,"path":"objects/oWarp/oWarp.yy",},
     {"name":"oWarpBlock","order":5,"path":"objects/oWarpBlock/oWarpBlock.yy",},

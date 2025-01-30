@@ -8,7 +8,7 @@ if (attackFrame > 0)
 }
 else
 {
-	if (not onGround) { sprite_index = sSlimeJumpBoss; mask_index = sSlimeJumpBoss; }
+	if (not onGround) { sprite_index = sSlimeJumpBoss; mask_index = sSlimeIdleBoss; }
 	else { sprite_index = sSlimeIdleBoss; mask_index = sSlimeIdleBoss; }
 }
 

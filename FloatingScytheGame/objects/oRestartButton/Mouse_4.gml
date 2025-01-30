@@ -21,6 +21,7 @@ with (oPlayer)
 	hp = global.lastPlayer._hp;
 	x = global.lastPlayer._x;	
 	y = global.lastPlayer._y;
+	jumpMax = global.lastPlayer._maxJump;
 }
 
 room_restart();

@@ -37,7 +37,7 @@ function getHit(HitterX, HitterY, damage)
 				onGround = false;
 				split = true;
 				jumpMax = 1;				
-				instance_create_depth(x, y, depth, oBonepile);
+				//instance_create_depth(x, y, depth, oBonepile);
 			}
 			hp = hp_max;
 		}

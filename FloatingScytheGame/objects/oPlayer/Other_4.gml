@@ -7,3 +7,4 @@ global.lastPlayer._souls = souls;
 global.lastPlayer._split = split;
 global.lastPlayer._x = x;
 global.lastPlayer._y = y;
+global.lastPlayer._maxJump = jumpMax;

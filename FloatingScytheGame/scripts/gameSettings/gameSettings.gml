@@ -11,7 +11,8 @@ function gameInit()
 		_souls: 0,
 		_split: false,
 		_hp: 0,
-		_stamina: 0
+		_stamina: 0,
+		_maxJump: 0
 	};
 	// since no saves gonna pretend player has played before
 	//global.firstTime = not file_exists("settings.txt");
